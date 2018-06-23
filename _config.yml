@@ -1,0 +1,74 @@
+# SITE CONFIGURATION
+title: Zivost Technologies # your site title
+author: Zivost # You :P
+description: > # Meta description of Homepage
+  Zivost Technologies is a leading custom software development company based in India offering product development, mobile app development, IT Outsourcing, web development, custom software development &amp; more with best quality
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://zivost.com/blog/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: Zivost Technologies
+  links:
+    - https://twitter.com/zivost_en
+    - https://www.facebook.com/zivost
+    - https://www.linkedin.com/in/zivost-technologies-pvt-ltd
+    - https://github.com/zivost
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Work', link: '#'}
+  - {name: 'Products', link: '#'}
+  - {name: 'Open Source', link: 'https://github.com/zivost'}
+  - {name: 'Blog', link: '/blog'}
+  - {name: 'Contact', link: '/contact'}
+
+tagline: >
+  We convert your ideas into reality
+
+hero_img: https://cdn.zivost.com/images/assets/images/home/tour-bg.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+
+email: info@zivost.com # email for form submission
+
+twitter_username: zivost_en # replace with your_twitter_username or comment to remove link from footer
+github_username:  zivost # replace with your_github_username or comment to remove link from footer
+instagram_username: zivost # replace with your_instagram_username or comment to remove link from footer
+facebook_username: zivost # replace with your_instagram_username or comment to remove link from footer
+linkdin_username: zivost-technologies-pvt-ltd # replace with your_instagram_username or comment to remove link from footer
+
+#disqus:
+#  shortname:
+
+google_tag_manager: GTM-WLH38SG
+
+service_worker: true
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+  - sw.js
+
+include: ['_pages']
+permalink: /blog/:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

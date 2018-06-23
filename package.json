@@ -1,0 +1,56 @@
+{
+  "name": "zivost-com",
+  "version": "1.0.0",
+  "repository":"https://github.com/zivost/zivost-com.git",
+  "description": "zivost.com website and blog served via #jekyll on #github-pages",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "fg-loadcss": "^2.0.1",
+    "jquery": "^3.3.1",
+    "lazysizes": "^4.0.4",
+    "normalize.css": "^8.0.0",
+    "picturefill": "^3.0.2",
+    "velocity-animate": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    "critical": "^1.3.3",
+    "eslint": "^5.0.0",
+    "eslint-config-jquery": "^1.0.1",
+    "eslint-plugin-dollar-sign": "^1.0.1",
+    "eslint-plugin-jquery": "^1.3.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-responsive": "^2.10.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "sw-precache": "^5.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "keywords": [
+    "zivost",
+    "jekyll",
+    "blog"
+  ],
+  "author": "Rohit Hazra <rohit@zivost.com>",
+  "private": true
+}

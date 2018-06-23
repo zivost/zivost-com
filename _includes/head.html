@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msvalidate.01" content="2F8029B2F9675F8EB31F2212658FD5E3"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="copyright" content="Zivost Technologies"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-in"/>
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-gb"/>
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-us"/>
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-au"/>
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-ca"/>
+  <link rel="alternate" href="https://www.zivost.com/" hreflang="en-za"/>
+
+  {% seo %}
+
+    <link rel="shortcut icon" href="https://cdn.zivost.com/images/assets/images/fav_icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="https://cdn.zivost.com/images/assets/images/fav-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="https://cdn.zivost.com/images/assets/images/fav-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="https://cdn.zivost.com/images/assets/images/fav-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="https://cdn.zivost.com/images/assets/images/fav-icon-57x57.png">
+  <meta name="apple-mobile-web-app-title" content="Zivost">
+  <meta name="application-name" content="Zivost">
+  <meta name="theme-color" content="#ffffff">
+
+  {% if site.google_tag_manager %}
+
+    {% include gtm.html %}
+
+  {% endif %}
+
+  <style class="inlineCSS">
+
+    {% include critical.css %}
+
+  </style>
+  <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+  <script type="text/javascript">
+   {% include loadCss.js %}
+  </script>
+</head>
