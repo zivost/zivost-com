@@ -12,15 +12,16 @@ install:
 before_script:
  - chmod +x ./script/cibuild
 
-script: ./script/cibuild
-
-deploy:
- - provider: script
-   script: ./scripts/push.sh
+script:
+ - ./script/cibuild
+ - ./script/push.sh
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
-cache: bundler # caching bundler gem packages will speed up build
+cache:
+  bundler: true # caching bundler gem packages will speed up build
+  directories:
+      - node_modules
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:
