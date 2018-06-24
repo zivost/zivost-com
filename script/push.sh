@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
-cd _site # change to built directory
 
 setup_git() {
   git config --global user.email "travis@travis-ci.org"
@@ -9,14 +8,15 @@ setup_git() {
 #
 #}
 commit_website_files() {
-  git init
-  git checkout -b gh-pages
+  git clone https://rohithzr:${github_token}@github.com/zivost/zivost-com.git dist
+  cd dist
+  git checkout gh-pages
+  cp -R ../_site/ ./
   git add .
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit -a -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 #
 upload_files() {
-  git remote add origin https://rohithzr:${github_token}@github.com/zivost/zivost-com.git > /dev/null 2>&1
   git push --quiet --set-upstream origin gh-pages
 }
 #
