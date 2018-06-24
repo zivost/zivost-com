@@ -16,6 +16,7 @@ Zivost's website uses a number of open source projects to work properly:
 * [Font-Awesome] - for awesome icons.
 * [Sleek] - a nice Jekyll theme
 * [browser-sync] - makes our lives a bit easier
+* [travis-ci] - builds and deploys everything
 
 #### Licence
 We support and encourage the open-source technology and anyone can use this repo for educational purpose. We welcome PRs to make this website smoother and beautiful, we also welcome content writers willing to contribute to our blog and serve the community.
@@ -47,4 +48,5 @@ The theme used in this repo is based of [Sleek](https://github.com/janczizikow/s
    [express]: <http://expressjs.com>
    [Gulp]: <http://gulpjs.com>
    [browser-sync]: <https://github.com/BrowserSync/browser-sync>
+   [travis-ci]: <https://travis-ci.org/>
 
