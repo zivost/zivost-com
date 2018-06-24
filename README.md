@@ -1,6 +1,8 @@
 # Zivost Technologies
 [Zivost Technologies official website.](https://zivost.com)
 
+[![Build Status](https://travis-ci.org/zivost/zivost-com.svg?branch=master)](https://travis-ci.org/zivost/zivost-com)
+
 ### Tech
 Zivost's website uses a number of open source projects to work properly:
 
