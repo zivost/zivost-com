@@ -10,7 +10,7 @@ Zivost's website uses a number of open source projects to work properly:
 * [Jekyll] - an great blog-aware static site generator
 * [Twitter Bootstrap] - great UI boilerplate for modern web app
 * [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
+* [Express] - fast node.js network app framework
 * [Gulp] - the streaming build system
 * [jQuery] - cause jQuery
 * [Font-Awesome] - for awesome icons.
