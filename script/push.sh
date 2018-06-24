@@ -16,7 +16,7 @@ commit_website_files() {
 }
 #
 upload_files() {
-  git remote add origin https://${github_token}@github.com:zivost/zivost-com.git > /dev/null 2>&1
+  git remote add origin https://rohithzr:${github_token}@github.com/zivost/zivost-com.git > /dev/null 2>&1
   git push --quiet --set-upstream origin gh-pages
 }
 #
