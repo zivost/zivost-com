@@ -17,7 +17,7 @@ commit_website_files() {
 #
 upload_files() {
   git remote add gh-pages https://${github_token}@github.com:zivost/zivost-com.git > /dev/null 2>&1
-  git push --quiet --set-upstream origin gh-pages
+  git push --quiet --set-upstream gh-pages
 }
 #
 setup_git
