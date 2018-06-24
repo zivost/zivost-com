@@ -62,7 +62,7 @@
     <meta name="keywords"
           content="Software Development Company, Mobile Application development Company, software development India, hire software developer, IT consultation, IT outsourcing">
 
-    <title>About|Zivost Technologies</title>
+    <title>About us</title>
     <link href="/assets/css/zivost.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
@@ -77,8 +77,6 @@
     <!-- /SEO BLOCK -->
 
     <!--[if lt IE 9]>
-    <!--<script src="/assets/js/html5shiv.js"></script>-->
-    <!--<script src="/assets/js/respond.min.js"></script>-->
     <![endif]-->
     <link rel="shortcut icon" href="https://cdn.zivost.com/images/assets/images/fav_icon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
@@ -129,25 +127,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html">
+                <a class="navbar-brand" href="index.html">
                     <h1>
                         <img src="https://cdn.zivost.com/images/assets/images/zivost_logo.png" alt="zivost-logo">
                     </h1>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar" style="margin-right: -40px;">
-                <ul class="nav navbar-nav navbar">
-                    <li class="active">
+                <ul class="nav navbar-nav navbar header-navbar-nav">
+                    <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="#">Work</a>
-                    </li>
-                    <li>
-                        <a href="#">Products</a>
+                        <a href="/success-stories">Success Stories</a>
                     </li>
                     <li>
                         <a href="https://github.com/zivost">Open Source</a>
@@ -158,7 +153,6 @@
                     <li>
                         <a href="/contact">Contact us</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -452,7 +446,7 @@
                      alt="">
             </div>
             <div class="col-md-4 col-sm-6 zivost_bottom">
-                <a href="../index.html">
+                <a href="index.html">
                     <img class="padding_bottom" src="https://cdn.zivost.com/images/assets/images/zivost_logo.png"
                          alt="zivost-logo">
                 </a>
@@ -581,7 +575,7 @@
                 information: message,
                 source: "Home",
                 browsed_time: timeSec,
-            }
+            };
             $.ajax({
                 type: "POST",
                 url: "https://us-central1-zivost-com.cloudfunctions.net/requestQuote",

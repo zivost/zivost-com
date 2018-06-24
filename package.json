@@ -1,7 +1,7 @@
 {
   "name": "zivost-com",
   "version": "1.0.0",
-  "repository":"https://github.com/zivost/zivost-com.git",
+  "repository": "https://github.com/zivost/zivost-com.git",
   "description": "zivost.com website and blog served via #jekyll on #github-pages",
   "main": "gulpfile.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "start": "gulp"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "breakpoint-sass": "^2.7.1",
     "fg-loadcss": "^2.0.1",
     "jquery": "^3.3.1",

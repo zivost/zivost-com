@@ -206,10 +206,10 @@ gulp.task('serve', gulp.series(function (done) {
 }));
 
 gulp.task('watch', gulp.series(function () {
-    gulp.watch('_sass/**/*.scss', gulp.series(['sass'], function(done){
+    gulp.watch(['assets/css/zivost.css', '_sass/**/*.scss'], gulp.series(['sass'], function(done){
         done()
     }));
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', 'pages_/*.md', '_include/*html'], gulp.series(['rebuild'], function(done){
+    gulp.watch(['success-stories/*.html', 'contact/*.html', 'about/*.html', '*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md', 'pages_/*.md', '_include/*html'], gulp.series(['rebuild'], function(done){
         done()
     }));
     gulp.watch(src.js, gulp.series(['js'], function(done){

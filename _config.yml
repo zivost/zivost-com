@@ -19,14 +19,12 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
-  - {name: 'Work', link: '#'}
-  - {name: 'Products', link: '#'}
+  - {name: 'Success Stories', link: '/success-stories'}
   - {name: 'Open Source', link: 'https://github.com/zivost'}
   - {name: 'Blog', link: '/blog'}
   - {name: 'Contact', link: '/contact'}
 
-tagline: >
-  We convert your ideas into reality
+tagline: We convert your ideas into reality
 
 hero_img: https://cdn.zivost.com/images/assets/images/home/tour-bg.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
@@ -61,7 +59,6 @@ exclude:
   - npm-debug.log
   - gulpfile.js
   - sleek.jpg
-  - sw.js
 
 include: ['_pages']
 permalink: /blog/:title/
