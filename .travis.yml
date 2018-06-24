@@ -14,8 +14,9 @@ before_script:
 
 script: ./script/cibuild
 
-after_success:
- - sh ./scripts/push.sh
+deploy:
+ - provider: script
+   script: ./scripts/push.sh
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
