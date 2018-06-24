@@ -14,6 +14,8 @@ before_script:
 
 script: ./script/cibuild
 
+deploy: ./scripts/push.sh
+
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 cache: bundler # caching bundler gem packages will speed up build
