@@ -1,5 +1,6 @@
 <header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <div class="container">
+    <div class="row" style="margin-left: -15px; margin-right: -15px;">
       <nav class="social">
         {% if site.facebook_username %}
           <a class="social__link" target="_blank" rel="noopener noreferrer" href="https://facebook.com/{{ site.github_username }}">
@@ -18,12 +19,14 @@
         {% endif %}
       </nav>
     </div>
+  </div>
+  <div style="clear: both;"></div>
   <div class="container">
     <div class="header__inner">
       <a class="header__logo" href="{{ '/' | relative_url }}">
         <div class="header__logo--container">
           <h1>
-            
+
             <img src="https://cdn.zivost.com/images/assets/images/zivost_logo.png" alt="zivost-logo">
           </h1>
         </div>
@@ -31,7 +34,7 @@
       <nav class="header__links">
         <div class="container header__links-wrapper">
           {% for item in site.navigation %}
-            <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
+            <a {% if item.link contains "/blog" %} class="header__link_active header__link" {% else %} class="header__link" {% endif %} href="{{ item.link | relative_url }}" itemprop="url">
               <span itemprop="name">{{ item.name }}</span>
             </a>
           {% endfor %}

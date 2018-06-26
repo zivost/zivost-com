@@ -22,7 +22,7 @@ navigation: # Navigation links
   - {name: 'Success Stories', link: '/success-stories'}
   - {name: 'Open Source', link: 'https://github.com/zivost'}
   - {name: 'Blog', link: '/blog'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: 'Contact us', link: '/contact'}
 
 tagline: We convert your ideas into reality
 
@@ -34,7 +34,7 @@ twitter_username: zivost_en # replace with your_twitter_username or comment to r
 github_username:  zivost # replace with your_github_username or comment to remove link from footer
 instagram_username: zivost # replace with your_instagram_username or comment to remove link from footer
 facebook_username: zivost # replace with your_instagram_username or comment to remove link from footer
-linkdin_username: zivost-technologies-pvt-ltd # replace with your_instagram_username or comment to remove link from footer
+linkedin_username: zivost-technologies-pvt-ltd # replace with your_instagram_username or comment to remove link from footer
 
 #disqus:
 #  shortname:
