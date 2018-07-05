@@ -20,6 +20,11 @@ upload_files() {
   git push --quiet --set-upstream origin gh-pages
 }
 #
-setup_git
-commit_website_files
-upload_files
+if [ $github_token != "" ]
+then
+	setup_git
+	commit_website_files
+	upload_files	
+else
+	echo "Will push after merge"
+fi	
