@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["404/index.html","19cda5c95df092f216f18b36661db5f8"],["about/index.html","0c30e962b1ba54a033a5094a2ba6a33a"],["assets/css/main.css","9b93cd377ef9fd59d6684e323fcf1e7f"],["assets/css/responsive.css","51b67b1c963ef7cdd3057ef765a7d6da"],["assets/css/zivost.css","f5501507423332747909e3c0e51aa4f4"],["assets/img/favicon.png","8697c2fc5a032434221de1d5df45f37b"],["assets/js/bundle.js","fb54efc4cc3669bf7135baf0d635a3ca"],["assets/js/main.js","8752f029cbc54aa36a4802a1843e6b93"],["blog/assets/css/main.css","2d6ae89c9439216919cb4a1c55c3e43e"],["blog/assets/js/bundle.js","fb54efc4cc3669bf7135baf0d635a3ca"],["blog/convert-ideas-into-an-app/index.html","d24476f38255b39f5c3e171205c2eb3c"],["blog/index.html","d8dbf0241e26de2b7e67d6e65948f850"],["categories/index.html","2a89c8f22c2128c20d17808a1770b973"],["contact/index.html","6f79efc5db017e5548b01a96623c82d9"],["index.html","b82c7ef5e6641fa2577c7ecac2766c96"],["success-stories/classlaga.html","0367afce865d2a0daa2d86da3d783696"],["success-stories/contetto.html","ba6498af1a210f9b20fdfd671be74984"],["success-stories/cxihub.html","e238a6ef501f9bf1c484b3f7999b0ecd"],["success-stories/dabster.html","6766a002efb04343686cba989cc4e45b"],["success-stories/index.html","2ef367b5352ebc5bd3d705f84ede8378"],["success-stories/noon.html","68ca65c06ad6bc1dbc7f48226242f33e"],["sw.js","6a2d7766300f411eb4ab1ee6f2858361"]];
+var precacheConfig = [["404/index.html","9bba91a4968814e4a01f10c13edc0c8f"],["about/index.html","0d9268ed7fbe652af64e61891ea0fcd3"],["assets/css/main.css","d41d8cd98f00b204e9800998ecf8427e"],["assets/css/responsive.css","51b67b1c963ef7cdd3057ef765a7d6da"],["assets/css/zivost.css","2e5415996723e889656b796ed3e2882f"],["assets/img/favicon.png","8697c2fc5a032434221de1d5df45f37b"],["assets/js/bundle.js","fb54efc4cc3669bf7135baf0d635a3ca"],["assets/js/main.js","8752f029cbc54aa36a4802a1843e6b93"],["blog/assets/css/main.css","7e4ef2023587e12a2eed90fe9a9da802"],["blog/assets/js/bundle.js","fb54efc4cc3669bf7135baf0d635a3ca"],["blog/convert-ideas-into-an-app/index.html","0533471c2643339fbb4e0b6df32f7ff0"],["blog/index.html","686d8aa5cdad2c53ca74bd23ef121583"],["categories/index.html","ff32bd2452b02c4e79b22f508ad62d1e"],["contact/index.html","a1587ffcd39f1ca6c3e3adc53d3c2673"],["index.html","93eb45baf233903f6cfa8a907fdf356c"],["success-stories/classlaga.html","e57f1d352799bad6ddebd6c3b345593c"],["success-stories/contetto.html","d54f18ff2986b4d5272ca5609ebedfec"],["success-stories/cxihub.html","4aafbeb8fe567a787876c8711ae1d06b"],["success-stories/dabster.html","78d646d01fc982ed4032f7fe150c8aaf"],["success-stories/index.html","4891cb8c72dc6a8140ae5999c35b51cd"],["success-stories/noon.html","fcf35ed505d7391b6bc9d719e0e9fe72"],["sw.js","93409c8226778b56fe5f1ed6fd9640b3"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290

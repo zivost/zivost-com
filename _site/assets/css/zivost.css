@@ -2902,13 +2902,16 @@ span.stButton_gradient,
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     background: #277cea;
-    -moz-transition: all 0.18s ease;
-    -webkit-transition: all 0.18s ease;
-    -o-transition: all 0.18s ease;
-    transition: all 0.18s ease;
+    -moz-transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    -webkit-transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    -o-transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
 }
 
 .header-navbar-nav > li:hover > a:after {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #00aeef !important;
 }
