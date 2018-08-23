@@ -13,7 +13,7 @@
     "breakpoint-sass": "^2.7.1",
     "fg-loadcss": "^2.0.1",
     "jquery": "^3.3.1",
-    "lazysizes": "^4.0.4",
+    "lazysizes": "^4.1.1",
     "normalize.css": "^8.0.0",
     "picturefill": "^3.0.2",
     "velocity-animate": "^1.5.1"
