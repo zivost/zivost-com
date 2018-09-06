@@ -1,9 +1,8 @@
 # Zivost Technologies
 [Zivost Technologies official website.](https://zivost.com)
 
-[![Travis](https://img.shields.io/travis/zivost/zivost-com.svg?style=flat-square)](https://travis-ci.org/zivost/zivost-com) 
-[![Website](https://img.shields.io/website-up-down-green-red/https/zivost.com.svg?label=zivost.com&style=flat-square)](https://zivost.com)
-  [![Codacy grade](https://img.shields.io/codacy/grade/7b7dbbdb2e2a4ca58ce31e03cbbcd022.svg?style=flat-square)](https://www.codacy.com/app/rohithzr/zivost-com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zivost/zivost-com&amp;utm_campaign=Badge_Grade) [![Code Climate](https://shields-staging.herokuapp.com/codeclimate/maintainability/zivost/zivost-com.svg?style=flat-square)](https://codeclimate.com/github/zivost/zivost-com/maintainability) [![Depfu](https://img.shields.io/depfu/zivost/zivost-com.svg?style=flat-square)](https://depfu.com/github/zivost/zivost-com)
+[![Website](https://img.shields.io/website-up-down-green-red/https/zivost.com.svg?label=zivost.com&style=flat-square)](https://zivost.com) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7b7dbbdb2e2a4ca58ce31e03cbbcd022)](https://www.codacy.com/app/rohithzr/zivost-com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zivost/zivost-com&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/zivost/zivost-com.svg?branch=master)](https://travis-ci.org/zivost/zivost-com) [![Depfu](https://badges.depfu.com/badges/4ba99467b3530a841e8034c042396ab8/overview.svg)](https://depfu.com/github/zivost/zivost-com?project=Bundler) [![Maintainability](https://api.codeclimate.com/v1/badges/4918ac79a130e2d12927/maintainability)](https://codeclimate.com/github/zivost/zivost-com/maintainability)
+
 
 ### Tech
 Zivost's website uses a number of open source projects to work properly:
