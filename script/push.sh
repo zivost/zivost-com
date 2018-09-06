@@ -12,6 +12,7 @@ commit_website_files() {
   cd dist
   git checkout gh-pages
   cp -R ../_site/* ./
+  rm -rf ../_site
   git add .
   git commit -a -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
