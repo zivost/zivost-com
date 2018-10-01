@@ -57,7 +57,7 @@ In `Build Phases` of the target where you are getting the error
 - Remove `libfishhook.a ` (if exists)
 - Re-Add `libfishhook.a`
 
-![https://github.com/facebook/react-native/issues/19569#issuecomment-394869470](https://user-images.githubusercontent.com/637225/41004316-d626d112-68ef-11e8-8a5e-397a55777bc4.png)
+![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif](https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif)
 
 If the following does not resolve the issue then find the `libfishhook.a`file from any project and paste it in `node_modules/react-native/Libraries/WebSocket/`. I have uploaded this file and you can also do the following in the project's root folder.
 
