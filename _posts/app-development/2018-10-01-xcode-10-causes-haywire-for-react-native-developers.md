@@ -19,7 +19,7 @@ Let's start.
 
 Mostly, I found these issues with projects using`react-native <= 0.57`but you may face it in higher versions as well.
 
-### Double Conversion or Lexical Issue
+## Double Conversion or Lexical Issue
 
 #### Errors covered
 
@@ -41,7 +41,7 @@ make install
 
 Other solutions include running `../../scripts/ios-install-third-party.sh` and`../../scripts/ios-configure-glog.sh`which re-installs the third-party modules and then rebuild it. But if your project was running before the Xcode upgrade, this might not be required as you probably have the right versions of the modules.
 
-### RCTWebSocket - library libfishhook.a is missing
+## RCTWebSocket - library libfishhook.a is missing
 
 #### Errors Covered
 
@@ -65,7 +65,7 @@ wget https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/libfishhook.a -O nod
 
 
 
-### Semantic Issue
+## Semantic Issue
 
 This error seems to only occur with `react-native <= 0.56` and is fixed with `v0.57`. It is recommended to upgrade the version and this process should be faily easier. Remember if you upgrade manually, always create a new branch and test everything before commiting. 
 
@@ -110,7 +110,7 @@ With:
 
 
 
-### Multiple commands produce ... Info.plist
+## Multiple commands produce ... Info.plist
 
 ```bash
 Showing Recent Messages
@@ -125,7 +125,7 @@ Now this error I faced in an older version of `react-native v0.4x` and can easil
 
 
 
-#### Multiple linking errors
+## Multiple linking errors
 
 You may encounter multiple errors related to linking or missing libraries. To solve those issues you should try the following.
 
@@ -147,7 +147,7 @@ While the above errors do cover the most major errors, you may still face certai
 
 
 
-#### What do I think of the new build system?
+## What do I think of the new build system?
 
 The new build system definately seems faster and more optimized than ever before. There are a few caveats and some things are breaking but it does not mean that the build system is bad or was not tested thoroughly, it simply means that a few older libraries fail to work, which you should upgrade whenever you get the chance.
 
