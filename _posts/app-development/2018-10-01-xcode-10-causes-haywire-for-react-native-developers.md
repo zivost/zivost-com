@@ -19,6 +19,8 @@ Let's start.
 
 Mostly, I found these issues with projects using`react-native <= 0.57`but you may face it in higher versions as well.
 
+**Note: Most of these issues are just a temporary fix and will need to be repeated each time you clone your code. So it is recommended that you upgrade your react and react-native versions as soon as possible**
+
 ## Double Conversion or Lexical Issue
 
 #### Errors covered
@@ -41,7 +43,7 @@ make install
 
 Other solutions include running `../../scripts/ios-install-third-party.sh` and`../../scripts/ios-configure-glog.sh`which re-installs the third-party modules and then rebuild it. But if your project was running before the Xcode upgrade, this might not be required as you probably have the right versions of the modules.
 
-## RCTWebSocket - library libfishhook.a is missing
+## RCTWebSocket - libfishhook.a is missing
 
 #### Errors Covered
 
