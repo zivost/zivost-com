@@ -7,8 +7,6 @@ mathjax: true
 
 # XCODE 10 causes haywire for React Native Developers
 
-![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/blog_header.jpg](https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/blog_header.jpg)
-
 React Native today is one of the (if not the most) popular languages to build apps for Android and iOS. Companies that are building on react-native consist of AirBnB, Facebook, UberEats, Discord, Tesla and many more, giving react-native a huge community that increases the popularity and stability of the language.
 
 Recentl,y Apple announced MacOS Mojave, iOS12 and launched the new iPhones (iPhone XS, iPhone XS Max and iPhone XR) and with these announcements came Xcode 10.
