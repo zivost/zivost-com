@@ -40,6 +40,8 @@ v10.15.0
 3.0.3
 > bundle -v
 Bundler version 2.0.2
+> jekyll -v
+jekyll 3.8.6
 ```
 Install
 ```

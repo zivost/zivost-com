@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XCODE 10 causes haywire for React Native Developers
-featured-img: https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/blog_header.jpg
+featured-img: https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg
 mathjax: true
 ---
 React Native today is one of the (if not the most) popular languages to build apps for Android and iOS. Companies that are building on react-native consist of AirBnB, Facebook, UberEats, Discord, Tesla and many more, giving react-native a huge community that increases the popularity and stability of the language.
@@ -54,7 +54,7 @@ In `Build Phases` of the target where you are getting the error
 - Remove `libfishhook.a ` (if exists)
 - Re-Add `libfishhook.a`
 
-![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif](https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif)
+![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif](https://cdn.zivost.com/blogs/xcode_fix/xcode_fix_libfishhook.gif)
 
 If the following does not resolve the issue then find the `libfishhook.a`file from any project and paste it in `node_modules/react-native/Libraries/WebSocket/`. I have uploaded this file and you can also do the following in the project's root folder.
 
@@ -120,7 +120,7 @@ Showing Recent Messages
 
 Now this error I faced in an older version of `react-native v0.4x` and can easily be fixed by removing `Info.plist` from `Build Phases` of your project's `Targets`. See image for reference.
 
-![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/info_plist_error.png](https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/info_plist_error.png)
+![https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/info_plist_error.png](https://cdn.zivost.com/blogs/xcode_fix/info_plist_error.png)
 
 
 

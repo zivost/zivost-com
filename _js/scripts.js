@@ -6,7 +6,6 @@ require( "lazysizes/plugins/unveilhooks/ls.unveilhooks.js" );
 // Jquery & Velocity JS included in GULP
 $( document ).ready( function() {
     toggleMobileNav();
-    ShowHideNav();
     formCheck();
 
 } );

@@ -231,6 +231,6 @@ gulp.task('default', gulp.series(['browser-sync', 'watch'],function(done) {
     done();
 }));
 
-gulp.task('build', gulp.series(['sass', 'js', 'jekyll-build', 'img', 'sw'], function(done) {
+gulp.task('build', gulp.series(['sass', 'js', 'jekyll-build', 'sw'], function(done) {
     done();
 }));

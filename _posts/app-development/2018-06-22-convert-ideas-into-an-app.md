@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convert Your Ideas into an APP
-featured-img: https://s3.ap-south-1.amazonaws.com/zivost/cdn/images/blogs/startup-photos.jpg
+featured-img: https://cdn.zivost.com/blogs/app_ideas/kanban.jpg
 mathjax: true
 ---
 
@@ -32,7 +32,7 @@ MVP states the product first release which consists of basic feature for the ear
 
 How to be sure that there exists a market for your products the answer is competition. Your app may be facing the problem in MVP test then you have to identify the problem and develop the solution. Competition may be dealing with the same problem you can take the reference and make your product distinguish from others.
 
-![Image](https://s3.ap-south-1.amazonaws.com/zivost/cdn/images/blogs/pexels-photo-270408.jpeg)
+![Image](https://cdn.zivost.com/blogs/app_ideas/code.jpeg)
 
 # Development
 ---
