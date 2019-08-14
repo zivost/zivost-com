@@ -14,7 +14,7 @@
     "fg-loadcss": "^2.0.1",
     "jquery": "^3.3.1",
     "lazysizes": "^4.1.4",
-    "normalize.css": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "picturefill": "^3.0.2",
     "velocity-animate": "^1.5.2"
   },
