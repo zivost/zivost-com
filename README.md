@@ -19,6 +19,43 @@ Zivost's website uses a number of open source projects to work properly:
 * [browser-sync] - makes our lives a bit easier
 * [travis-ci] - builds and deploys everything
 
+### Setup
+
+**Make sure you have Command Line Tools (Mac), Build Essentials (Linux) installed.**
+#### Prerequisites
+```
+> gcc -v
+Apple clang version 11.0.0 (clang-1100.0.20.17)
+> make -v
+GNU Make 3.81
+>g++ -v
+Apple clang version 11.0.0 (clang-1100.0.20.17)
+> ruby -v
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin18]
+> node -v
+v10.15.0
+> npm -v
+6.9.0
+> gem -v
+3.0.3
+> bundle -v
+Bundler version 2.0.2
+```
+Install
+```
+npm install
+bundle install
+```
+Run
+```
+bundle exec jekyll serve
+```
+Build
+```
+bundle exec jekyll build
+gem build jekyll-zivost.gemspec
+```
+
 #### Licence
 We support and encourage the open-source technology and anyone can use this repo for educational purpose. We welcome PRs to make this website smoother and beautiful, we also welcome content writers willing to contribute to our blog and serve the community.
 
