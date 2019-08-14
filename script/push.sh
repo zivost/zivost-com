@@ -21,7 +21,7 @@ upload_files() {
   git push --quiet --set-upstream origin gh-pages
 }
 #
-if [ $github_token != "" ]
+if [ "$TRAVIS_PULL_REQUEST" = "false" ];
 then
 	setup_git
 	commit_website_files
