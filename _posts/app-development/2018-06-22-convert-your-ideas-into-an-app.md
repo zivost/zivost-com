@@ -11,6 +11,8 @@ mathjax: true
 
 India is the fourth largest app economy in the world which shows the rise in the app development market in India. It is contemplated that by the end of year 2020 app downloads may cross 20 billion marks. Statistics states that in India about 97% users rely on the mobile app over websites.
 
+&nbsp;
+
 Here is the list of the app's companies that have completely rely on their business profits to the mobile applications such as Redbus, Zomato, Uber, Ola, Paytm etc.
 
 # How to get started?
