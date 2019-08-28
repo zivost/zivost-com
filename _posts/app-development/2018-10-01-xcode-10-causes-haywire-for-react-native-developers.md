@@ -23,6 +23,7 @@ Mostly, I found these issues with projects using`react-native <= 0.57`but you ma
 #### Errors covered
 
 - Lexical or Preprocessor Issue > config.h file not found.
+- Lexical or Preprocessor Issue > logging.h file not found. (glog/logging.h or glog/*.h)
 - Build input file double-conversion cannot be found.
 
 The first issue you might face is the **Lexical or Preprocessor issue** or **Double Conversion not found Error**. There are multiple fixes on github regarding this error, while most of them have a different method to solve it, they all end up re-compiling a third party library named`glog`which is a **C++ implementation of the Google logging module** found [here](https://github.com/google/glog).
@@ -39,6 +40,10 @@ make install
 ```
 
 Other solutions include running `../../scripts/ios-install-third-party.sh` and`../../scripts/ios-configure-glog.sh`which re-installs the third-party modules and then rebuild it. But if your project was running before the Xcode upgrade, this might not be required as you probably have the right versions of the modules.
+
+#### Update (August 2019)
+
+This issue is still persistent even if you init a new project using `react-native init AwesomeProject --version 0.59.10`. The version `0.59.10` was supposed to fix the Lexical issues but the situation is still the same. Thankfully the solution is still to just rebuild the glog module using the above command.
 
 ## RCTWebSocket - libfishhook.a is missing
 
