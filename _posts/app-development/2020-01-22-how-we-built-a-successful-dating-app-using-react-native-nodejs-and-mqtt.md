@@ -1,9 +1,12 @@
 ---
 layout: page
 title: 'How we built a successful dating app using React Native, NodeJS and MQTT?'
-featured-img: 'https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg'
+featured-img: >-
+  s3://zivost-host/blog_images/person-holding-space-gray-iphone-x-1440722-min.jpg
 mathjax: true
 ---
+
+&nbsp;
 
 We had a simple mindset: Offer a smooth and premium user experience which reflects on the idea behind the app being privacy focused and judgement free.
 
