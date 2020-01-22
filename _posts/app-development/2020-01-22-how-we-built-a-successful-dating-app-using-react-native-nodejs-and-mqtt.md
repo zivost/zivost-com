@@ -12,7 +12,7 @@ The challenge seemed small initially but turned out we had high expectation of t
 
 So, we had to choose a stack which will promise our customers a wonderful experience which still remains our top priority even to this day.
 
-### **Competitive Analysis (Tech):**
+## **Competitive Analysis (Tech):**
 
 We had been researching a lot of dating apps and noticed a number of technical problems that shouldn’t be in our app:
 
@@ -20,7 +20,7 @@ We had been researching a lot of dating apps and noticed a number of technical p
 2. Almost all the dating apps have a painfully slow chat as compared to Social Media apps.
 3. Except for a few top ones, many apps offered a sluggish experience in terms of UX and UI and had a highly inconsistent design language.
 
-### **The key challenges:**
+## **The key challenges:**
 
 1. Offer a seamless and similar experience on both platforms (iOS and Android)
 2. Keep app size small (targeting developing nations)
@@ -31,9 +31,9 @@ We had been researching a lot of dating apps and noticed a number of technical p
 
 All of the points factored in choosing the perfect tech stack.
 
-### **The Tech Stack:**
+## **The Tech Stack:**
 
-#### **React Native:**
+### **React Native:**
 
 Choosing a robust framework with native-like performance wasn’t really a tough decision having only two viable options Futter and React Native. Our team had prior experience in working with ReactJS and considering the tremendous community support we went for React Native.
 
@@ -51,7 +51,7 @@ We ended up with a ~20MB APK that was sweet\!
 
 “react-native-localize” made the process a cakewalk.
 
-#### **NodeJS:**
+### **NodeJS:**
 
 With years of experience in NodeJS, this choice was an easy one.
 
@@ -61,7 +61,7 @@ With years of experience in NodeJS, this choice was an easy one.
 
 NodeJS along with some secret security implementations of our own (we don’t want to go in detail, obviously\!) we solved challenges 4 & 5.
 
-#### **Microservices:**
+### **Microservices:**
 
 We divided our backend code into parts to enhance the scalability and reduce server costs at the same time.
 
@@ -73,7 +73,7 @@ The services looked like:
 
 The three of them are communicating with each other using an open-source Microservices RPC framework we developed in-house called Teade ([https://github.com/zivost/teade](https://github.com/zivost/teade)).
 
-#### **MQTT:**
+### **MQTT:**
 
 With MQTT being extremely lightweight & fast, having a pub/sub mechanism and offering a high reliability why should it be restricted to just IoT devices.
 
@@ -83,7 +83,7 @@ With MQTT we were able to build a completely custom and flexible real-time chat 
 
 A big shout out to the creator of Aedes ([https://github.com/moscajs/aedes](https://github.com/moscajs/aedes)) who made this possible on NodeJS, upon which we built our custom chat framework.
 
-### **The process:**
+## **The process:**
 
 Having blessed with a hard-working team, the big challenges seemed small in front of their confidence and spirits.
 
@@ -91,7 +91,7 @@ The team worked in weekly sprints using an agile methodology. We would hold week
 
 The process to release v1.0 took nearly 3 months.
 
-### **The final result:**
+## **The final result:**
 
 1. Successful implementation of the tech stack in building the application.
 2. Displaying 60 fps, offering a seamless native-like experience.
@@ -99,4 +99,4 @@ The process to release v1.0 took nearly 3 months.
 
 And here’s the link you(us too) have been waiting for all the while:
 
-[https://pleb.dating](https://pleb.dating){: target="_blank"}
+**[https://pleb.dating](https://pleb.dating){: target="_blank"}**
