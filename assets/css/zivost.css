@@ -2915,3 +2915,12 @@ span.stButton_gradient,
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
     color: #00aeef !important;
 }
+.grecaptcha-badge {
+    width: 70px !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    left: 4px !important;
+}
+.grecaptcha-badge:hover {
+    width: 256px !important;
+}
