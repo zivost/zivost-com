@@ -205,6 +205,11 @@
                                     <textarea name="message" id="message" required="required" class="form-control"
                                               rows="8" placeholder="What is your project about?"></textarea>
                                 </div>
+                                <div id='recaptcha' class="g-recaptcha"
+                                    data-sitekey="6LfeTNEUAAAAAOBHFzabHDVyqwBy8FPAFiB40Peq"
+                                    data-callback="onSubmit"
+                                    data-size="invisible"
+                                ></div>
                                 <div class="form-group">
                                     <input type="submit" name="submit" onclick="submitForm()" class="btn btn-submit"
                                            value="Submit">
@@ -571,6 +576,11 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8"
                                       placeholder="What is your project about?"></textarea>
                         </div>
+                        <div id='recaptcha' class="g-recaptcha"
+                            data-sitekey="6LfeTNEUAAAAAOBHFzabHDVyqwBy8FPAFiB40Peq"
+                            data-callback="onSubmit"
+                            data-size="invisible"
+                        ></div>
                         <div class="form-group">
                             <input type="submit" name="submit" onclick="submitForm()" class="btn btn-submit"
                                    value="Submit">
@@ -601,6 +611,8 @@
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 </noscript>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript"
@@ -642,6 +654,7 @@
         var loaderDiv = document.getElementById('form_status');
 
         if (name && email && phone && budget && message) {
+            grecaptcha.execute();
             var data = {
                 name: name,
                 email: email,
