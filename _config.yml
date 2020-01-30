@@ -4,7 +4,7 @@ author: Zivost # You :P
 description: > # Meta description of Homepage
   Zivost Technologies is a leading custom software development company based in India offering product development, mobile app development, IT Outsourcing, web development, custom software development &amp; more with best quality
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zivost.com/blog/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zivost.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
@@ -61,7 +61,7 @@ exclude:
   - sleek.jpg
 
 include: ['_pages']
-permalink: :title/
+permalink: blog/:title/
 
 compress_html:
   clippings: all
