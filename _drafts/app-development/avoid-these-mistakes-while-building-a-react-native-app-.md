@@ -20,7 +20,7 @@ If you don't specify a unique key to your FlatList item, react will re-render ev
 
 Providing every list item with a unique key will enable a stable identity which avoids re-rendering.
 
-\`
+`
 
 &lt;FlatList&nbsp;
 
@@ -36,7 +36,7 @@ Providing every list item with a unique key will enable a stable identity which 
 
 /&gt;
 
-\`
+`
 
 The above code has an attribute&nbsp;**keyExtractor&nbsp;**which saves your app from the performance issues due to re-rendering. Be sure not to miss that one out.
 
