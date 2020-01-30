@@ -3,61 +3,70 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-
+  
 {% include head.html %}
-
+{% assign author = site.data.authors[page.author] %}
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
 <body class="site">
-
 {% if site.google_tag_manager %}
-
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
 {% endif %}
-
 {% include header.html %}
-
   {% if page.featured-img %}
-  <div class="hero lazyload" data-bg="{{ page.featured-img }}">
+  <!-- <div class="hero lazyload" data-bg="{{ page.featured-img }}"> -->
+    <div class="lazyload main-area">
+      <div class="post-content">
+        <h1 class="hero__title">{{ page.title }}</h1>
+        <p class="hero__meta">
+          <span>
+            <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
+          </span>
+          <span>
+              {% assign words = content | number_of_words %}
+                {% if words < 360 %}
+                  1 min
+                {% else %}
+                  {{ words | divided_by:180 }} mins
+              {% endif %} read
+          </span>
+        </p>
+      </div>
+      <img src="{{ page.featured-img }}">
+    </div>
+    <!-- <div class="d-flex align-items-center">
+          {% if author.avatar %}
+          <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
+          {% endif %}
+    <small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+              <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · </span>
+    </small>
+    </div> -->
+    <!-- <hr>
+      <span>
+        <div>
+            {% if author.image %}
+              <img src="{{author.image}}" class="author-img">
+            {% endif %}
+            <div>
+              <h3> {{author.name}} &nbsp;
+                {% if author.twitter %}
+                    <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
+                  {% endif %}
+                </h3>
+            </div>
+        </div>
+        {{ author.bio }}
+      </span>
+      <br> -->
   {% else %}
   <div class="hero dark-bg">
   {% endif %}
-    <!-- <div class="hero__wrap">
-      {% if post.categories or page.categories %}
-        <div class="hero__categories">
-          {% if post %}
-            {% assign categories = post.categories %}
-          {% else %}
-            {% assign categories = page.categories %}
-          {% endif %}
-          {% for category in categories %}
-            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-            {% unless forloop.last %}&nbsp;{% endunless %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      <h1 class="hero__title">{{ page.title }}</h1>
-      <p class="hero__meta">
-        <span>
-          <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
-        </span>
-        <span>
-            {% assign words = content | number_of_words %}
-              {% if words < 360 %}
-                1 min
-              {% else %}
-                {{ words | divided_by:180 }} mins
-            {% endif %} read
-        </span>
-      </p>
-    </div> -->
   </div>
-
   <main class="site__content">
     <div class="container">
-       
       <article class="post-content" itemprop="articleBody">
          <div class="">
             {% if post.categories or page.categories %}
@@ -73,7 +82,7 @@ layout: compress
                 {% endfor %}
               </div>
             {% endif %}
-            <h1 class="hero__title">{{ page.title }}</h1>
+            <!-- <h1 class="hero__title">{{ page.title }}</h1>
             <p class="hero__meta">
               <span>
                 <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
@@ -86,15 +95,13 @@ layout: compress
                       {{ words | divided_by:180 }} mins
                   {% endif %} read
               </span>
-            </p>
+            </p> -->
           </div>
         {{ content }}
-
       </article>
       <div class="post-content controls__inner">
         <div class="controls__item prev">
           {% if page.previous.url %}
-
           <span>Previous</span>
           <a href="{{page.previous.url | relative_url }}">
                 <span>
@@ -106,7 +113,6 @@ layout: compress
           </a>
           {% endif %}
         </div>
-
         <div class="controls__item next">
           {% if page.next.url %}
           <span>Next</span>
@@ -122,25 +128,17 @@ layout: compress
         </div>
       </div>
     </div>
-
     {% if site.disqus.shortname %}
-
     <div class="comments">
       <div class="container">
         <div class="post-content">
-
           {% include disqus.html %}
-
         </div>
       </div>
     </div>
-
     {% endif %}
-
   </main>
-
   {% include footer.html %}
   {% include mathjax.html %}
 </body>
-
 </html>
