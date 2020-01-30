@@ -105,8 +105,6 @@ The process to release v1.0 took nearly 3 months.
 2. Displaying 60 fps, offering a seamless native-like experience.
 3. Almost no hiccups, screen flickers, lags and crashes.
 
-&nbsp;
-
 And here’s the link you(us too) have been waiting for all the while:
 
 **[https://pleb.dating](https://pleb.dating){: target="_blank"}**
