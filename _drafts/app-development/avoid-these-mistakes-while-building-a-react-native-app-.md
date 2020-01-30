@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Avoid these mistakes while building a React Native app.
-featured-img: >-
-  https://zivost-host.s3.amazonaws.com/blog_images/person-holding-space-gray-iphone-x-1440722-min.jpg
+featured-img: 'https://cdn.zivost.com/blogs/rn_mistake/Blog+image.png'
 mathjax: true
 ---
 
