@@ -35,7 +35,9 @@ github_username:  zivost # replace with your_github_username or comment to remov
 instagram_username: zivost # replace with your_instagram_username or comment to remove link from footer
 facebook_username: zivost # replace with your_instagram_username or comment to remove link from footer
 linkedin_username: zivost-technologies-pvt-ltd # replace with your_instagram_username or comment to remove link from footer
-
+facebook:
+  app_id: 501138680820459
+  
 #disqus:
 #  shortname:
 
