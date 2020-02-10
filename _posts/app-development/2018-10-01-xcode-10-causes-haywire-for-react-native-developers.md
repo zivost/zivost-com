@@ -2,6 +2,9 @@
 layout: post
 title: XCODE 10 causes haywire for React Native Developers
 featured-img: https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg
+image: https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg
+author: rohit_hazra
+keywords: xcode,double-conversion,config.h,lexical,xcode10,glog,libfishhook.a,react-native
 mathjax: true
 ---
 

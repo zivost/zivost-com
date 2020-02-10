@@ -22,6 +22,7 @@
 </footer>
 <script async src="{{ "/blog/assets/js/bundle.js" | relative_url }}"></script>
 {% if site.service_worker %}
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <script async>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}').then(function( registration ) {

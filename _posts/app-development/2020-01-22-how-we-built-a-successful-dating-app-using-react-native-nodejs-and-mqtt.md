@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'How we built a successful dating app using React Native, NodeJS and MQTT?'
-featured-img: >-
-  https://zivost-host.s3.amazonaws.com/blog_images/person-holding-space-gray-iphone-x-1440722-min.jpg
+featured-img: https://zivost-host.s3.amazonaws.com/blog_images/person-holding-space-gray-iphone-x-1440722-min.jpg
+image: https://zivost-host.s3.amazonaws.com/blog_images/person-holding-space-gray-iphone-x-1440722-min.jpg
 mathjax: true
 ---
 

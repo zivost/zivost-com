@@ -3,112 +3,95 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  
+
 {% include head.html %}
 {% assign author = site.data.authors[page.author] %}
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 <body class="site">
-{% if site.google_tag_manager %}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{% endif %}
-{% include header.html %}
+  {% if site.google_tag_manager %}
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {% endif %}
+  {% include header.html %}
   {% if page.featured-img %}
   <!-- <div class="hero lazyload" data-bg="{{ page.featured-img }}"> -->
-    <div class="lazyload main-area">
-      <div class="post-content">
-        <h1 class="hero__title">{{ page.title }}</h1>
-        <p class="hero__meta">
-          <span>
-            <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
-          </span>
-          <span>
-              {% assign words = content | number_of_words %}
-                {% if words < 360 %}
-                  1 min
-                {% else %}
-                  {{ words | divided_by:180 }} mins
-              {% endif %} read
-          </span>
-        </p>
-      </div>
-      <img src="{{ page.featured-img }}">
+  <div class="lazyload main-area">
+    <div class="post-content">
+      <h1 class="hero__title">{{ page.title }}</h1>
+      <p class="hero__meta">
+        <span>
+          <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
+        </span>
+        <span>
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+          1 min
+          {% else %}
+          {{ words | divided_by:180 }} mins
+          {% endif %} read
+        </span>
+      </p>
     </div>
-    <!-- <div class="d-flex align-items-center">
-          {% if author.avatar %}
-          <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
-          {% endif %}
-    <small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-              <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · </span>
-    </small>
-    </div> -->
-    <!-- <hr>
-      <span>
-        <div>
-            {% if author.image %}
-              <img src="{{author.image}}" class="author-img">
-            {% endif %}
-            <div>
-              <h3> {{author.name}} &nbsp;
-                {% if author.twitter %}
-                    <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
-                  {% endif %}
-                </h3>
-            </div>
-        </div>
-        {{ author.bio }}
-      </span>
-      <br> -->
+    <img src="{{ page.featured-img }}">
+  </div>
   {% else %}
   <div class="hero dark-bg">
-  {% endif %}
+    {% endif %}
   </div>
   <main class="site__content">
     <div class="container">
       <article class="post-content" itemprop="articleBody">
-         <div class="">
-            {% if post.categories or page.categories %}
-              <div class="hero__categories">
-                {% if post %}
-                  {% assign categories = post.categories %}
-                {% else %}
-                  {% assign categories = page.categories %}
-                {% endif %}
-                {% for category in categories %}
-                  <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                  {% unless forloop.last %}&nbsp;{% endunless %}
-                {% endfor %}
-              </div>
+        <div class="">
+          {% if post.categories or page.categories %}
+          <div class="hero__categories">
+            {% if post %}
+            {% assign categories = post.categories %}
+            {% else %}
+            {% assign categories = page.categories %}
             {% endif %}
-            <!-- <h1 class="hero__title">{{ page.title }}</h1>
-            <p class="hero__meta">
-              <span>
-                <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
-              </span>
-              <span>
-                  {% assign words = content | number_of_words %}
-                    {% if words < 360 %}
-                      1 min
-                    {% else %}
-                      {{ words | divided_by:180 }} mins
-                  {% endif %} read
-              </span>
-            </p> -->
+            {% for category in categories %}
+            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+            {% endfor %}
           </div>
+          {% endif %}
+        </div>
         {{ content }}
+        {% if author %}
+        <div class="full-article-footer">
+          <div class="article-footer">
+
+            <div class="avatar-module">
+              <img class="avatar" height="100px" src="{{ author.picture }}">
+            </div>
+            <div>
+              <span class="author-link">{{ author.name }}</span>
+              <div class="circle-img-linkedin">
+                <a href="{{ author.linkedin }}" target="_blank" class="btn btn-linkedin">
+                  <i class="fa fa-linkedin fa-fw"></i><span> Let's connect!</span>
+                </a>
+              </div>
+            </div>
+            <div class="author-bio">{{ author.bio }}</div>
+            </span>
+          </div>
+        </div>
+        {% endif %}
       </article>
       <div class="post-content controls__inner">
         <div class="controls__item prev">
           {% if page.previous.url %}
           <span>Previous</span>
           <a href="{{page.previous.url | relative_url }}">
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
-                    <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
-                  </svg>
-              </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                <path fill="fillColor"
+                  d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z" />
+              </svg>
+            </span>
             {{page.previous.title | strip_html | truncate: 30}}
           </a>
           {% endif %}
@@ -119,10 +102,11 @@ layout: compress
           <a href="{{page.next.url | relative_url }}">
             {{page.next.title | strip_html | truncate: 30}}
             <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
-                  <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
-                </svg>
-              </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                <path fill="#fillColor"
+                  d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z" />
+              </svg>
+            </span>
           </a>
           {% endif %}
         </div>
@@ -141,4 +125,5 @@ layout: compress
   {% include footer.html %}
   {% include mathjax.html %}
 </body>
+
 </html>

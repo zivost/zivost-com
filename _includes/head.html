@@ -13,8 +13,15 @@
   <link rel="alternate" href="https://www.zivost.com/" hreflang="en-au"/>
   <link rel="alternate" href="https://www.zivost.com/" hreflang="en-ca"/>
   <link rel="alternate" href="https://www.zivost.com/" hreflang="en-za"/>
-
+  
+  {% assign cssLinkTemp = '/blog/assets/css/main.css' %}
+  {% assign time = site.time | date: "%s" %}
+  {% assign cssLink = cssLinkTemp | append: '?' | append: time %}
+  
   {% seo %}
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+  {% endif %} 
 
     <link rel="shortcut icon" href="https://cdn.zivost.com/images/assets/images/fav_icon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
@@ -39,9 +46,9 @@
     {% include critical.css %}
 
   </style>
-  <link rel="preload" href="{{ '/blog/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="{{ cssLink }}" as="style" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+  <noscript><link rel="stylesheet" href="{{ cssLink }}"></noscript>
   <script type="text/javascript">
    {% include loadCss.js %}
   </script>
