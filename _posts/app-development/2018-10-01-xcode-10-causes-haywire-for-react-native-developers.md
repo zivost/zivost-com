@@ -7,7 +7,7 @@ image:
     height: 1200
     width: 628
 author: rohit_hazra
-keywords: xcode,double-conversion,config.h,lexical,xcode10,glog,libfishhook.a,react-native
+tags: [xcode,double-conversion,config.h,lexical,xcode10,glog,libfishhook.a,react-native]
 mathjax: true
 ---
 

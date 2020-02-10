@@ -19,8 +19,8 @@
   {% assign cssLink = cssLinkTemp | append: '?' | append: time %}
   
   {% seo %}
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}" />
+  {% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ',' }}" />
   {% endif %} 
 
     <link rel="shortcut icon" href="https://cdn.zivost.com/images/assets/images/fav_icon.png">

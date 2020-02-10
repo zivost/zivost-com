@@ -26,6 +26,11 @@ navigation: # Navigation links
 
 tagline: We convert your ideas into reality
 
+# Tags
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
+
 hero_img: https://cdn.zivost.com/images/assets/images/home/tour-bg.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: info@zivost.com # email for form submission
@@ -37,7 +42,7 @@ facebook_username: zivost # replace with your_instagram_username or comment to r
 linkedin_username: zivost-technologies-pvt-ltd # replace with your_instagram_username or comment to remove link from footer
 facebook:
   app_id: 501138680820459
-  
+
 #disqus:
 #  shortname:
 
@@ -71,3 +76,6 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll/tagging
+  - jekyll-feed
+  - jekyll-admin
