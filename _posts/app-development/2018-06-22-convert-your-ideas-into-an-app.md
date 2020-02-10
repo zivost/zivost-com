@@ -2,7 +2,10 @@
 layout: post
 title: Convert Your Ideas into an APP
 featured-img: https://cdn.zivost.com/blogs/app_ideas/kanban.jpg
-image: https://cdn.zivost.com/blogs/app_ideas/kanban.jpg
+image: 
+    path: https://cdn.zivost.com/blogs/app_ideas/kanban.jpg
+    height: 1200
+    width: 628
 mathjax: true
 ---
 

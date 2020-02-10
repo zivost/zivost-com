@@ -3,7 +3,10 @@ layout: post
 author: vidit_mathur
 title: NodeJS vs PHP? Let's settle the debate with a clear winner
 featured-img: 'https://cdn.zivost.com/blogs/node-vs-php/nodevsphp.jpg'
-image: 'https://cdn.zivost.com/blogs/node-vs-php/nodevsphp.jpg'
+image: 
+    path: https://cdn.zivost.com/blogs/node-vs-php/nodevsphp.jpg
+    height: 1200
+    width: 628
 mathjax: true
 ---
 
