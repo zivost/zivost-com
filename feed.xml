@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://zivost.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zivost.com/" rel="alternate" type="text/html" /><updated>2020-02-10T17:40:27+00:00</updated><id>https://zivost.com/feed.xml</id><title type="html">Zivost Technologies</title><subtitle>Zivost Technologies is a leading custom software development company based in India offering product development, mobile app development, IT Outsourcing, web development, custom software development &amp;amp; more with best quality
+</subtitle><author><name>Zivost</name></author><entry><title type="html">NodeJS vs PHP? Let’s settle the debate with a clear winner</title><link href="https://zivost.com/blog/nodejs-vs-php-lets-settle-the-debate-with-a-clear-winner/" rel="alternate" type="text/html" title="NodeJS vs PHP? Let's settle the debate with a clear winner" /><published>2020-02-09T00:00:00+00:00</published><updated>2020-02-09T00:00:00+00:00</updated><id>https://zivost.com/blog/nodejs-vs-php-lets-settle-the-debate-with-a-clear-winner</id><content type="html" xml:base="https://zivost.com/blog/nodejs-vs-php-lets-settle-the-debate-with-a-clear-winner/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;This topic has been a very popular debate topic in the apps development industry nowadays.
+This article is about why we here at &lt;strong&gt;Zivost Technologies&lt;/strong&gt; opted for Node.js over PHP. In this article, I’ll walk you through a brief of both the technologies and why Node.js was a better fit for our use.
+Both node.js and PHP are widely used for backend development but still have their distinct differences.
+Backend developers are the ones who fall in the dilemma of choosing between PHP and Node.js.  Earlier, Javascript didn’t overlap with PHP. Javascript was used for the front end applications while PHP was used for developing server-side (backend) applications. Now when and why did this dilemma between the two arise? It was when JavaScript in the form of node.js began entering the back-end server.&lt;/p&gt;
+&lt;h1 id=&quot;what-is-nodejs&quot;&gt;What is Node.js?&lt;/h1&gt;
+&lt;p&gt;Node.js is a runtime environment that includes everything that is needed to execute a program that is written in Javascript. Node.js initially appeared when the engineers of Javascript broadened its scope from something you could just keep running in a program on the browser to something you could keep running on your machine as an independent application and serve as a runtime environment.&lt;/p&gt;
+&lt;h1 id=&quot;what-is-php&quot;&gt;What is PHP?&lt;/h1&gt;
+&lt;p&gt;PHP (Hypertext Preprocessor), is a general-purpose programming language originally designed for web development. In 1994, it was developed by Rasmus Lerdorf. PHP is an open-source scripting language that is mostly used in web development and comes along with the feature that it can be directly embedded into HTML. In the case of embedding PHP into HTML, the script is executed on the server-side, generating the HTML which is further sent to the client.&lt;/p&gt;
+
+&lt;h1 id=&quot;nodejs&quot;&gt;NodeJS:&lt;/h1&gt;
+&lt;h2 id=&quot;where-to-use&quot;&gt;Where to use?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-higher-server-side-processing&quot;&gt;When we require higher server-side processing.&lt;/h4&gt;
+    &lt;p&gt;This high speed of node.js is due to various features offered by the language such as continued server connections, callback functions to process multiple requests at the same time, and many more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-expect-flexibility-and-freedom-in-terms-of-dependencies-and-choosing-guidelines-for-the-project&quot;&gt;When we expect flexibility and freedom in terms of dependencies and choosing guidelines for the project.&lt;/h4&gt;
+    &lt;p&gt;Access to hundreds of different modules to choose from for inclusion and enhancement of various features. Support of various architecture patterns.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-intend-to-use-a-single-language-throughout-the-development-stack&quot;&gt;When we intend to use a single language throughout the development stack.&lt;/h4&gt;
+    &lt;p&gt;Node.js is a JavaScript framework, provides developers with a variety of benefits a developer expects from a scripting language. Such as fewer bugs,  enhanced functionality and many more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-switching-to-new-technology&quot;&gt;When switching to new technology.&lt;/h4&gt;
+    &lt;p&gt;Being Identical to Js makes it easier to learn and it is also ideal while working to with large files&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;continuously-enhancing-and-developing-technology&quot;&gt;Continuously enhancing and developing technology.&lt;/h4&gt;
+    &lt;p&gt;Backed by a large community of open-source contributors, enhancing its capabilities and performance.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;where-not-to-use&quot;&gt;Where not to use?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-higher-computational-and-processing-power&quot;&gt;When we require higher computational and processing power.&lt;/h4&gt;
+    &lt;p&gt;The use of Node.js as a back-end technology is unadvisable if your app requires intensive CPU activities, such as generating or editing audio, graphic or video content.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-a-reliable-back-end-in-terms-of-maturity&quot;&gt;When we require a reliable back-end in terms of maturity.&lt;/h4&gt;
+    &lt;p&gt;Node.js is a relatively new technology and lacks in terms of maturity when it comes to handling complicated code structures.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;php&quot;&gt;PHP:&lt;/h1&gt;
+&lt;h2 id=&quot;where-to-use-1&quot;&gt;Where to use?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-a-robust-and-strong-codebase&quot;&gt;When we require a robust and strong codebase.&lt;/h4&gt;
+    &lt;p&gt;The technology comes with a strong code base that facilitates easy integration with various platforms. These features extend the capabilities of Rapid Application Development.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-a-single-task-solution-to-our-business-logic&quot;&gt;When we require a single task solution to our business logic.&lt;/h4&gt;
+    &lt;p&gt;The technology comes with capabilities to integrate and develop precise and exact development solutions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-require-to-focus-only-on-web-based-solutions&quot;&gt;When we require to focus only on web-based solutions.&lt;/h4&gt;
+    &lt;p&gt;The language provides capabilities to manage functionalities along with HTML efficiently. This language also helps developer avoiding overload at the client-side in a Content Management System&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;where-not-to-use-1&quot;&gt;Where not to use?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-need-to-implement-a-client-server-model&quot;&gt;When we need to implement a client-server model.&lt;/h4&gt;
+    &lt;p&gt;The client-server model is a lot slower with PHP than with NodeJS.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;when-we-need-to-separate-views-from-business-logic&quot;&gt;When we need to separate views from business logic.&lt;/h4&gt;
+    &lt;p&gt;In scenarios where we need to separate business logic from HTML code, the use of PHP is not advised.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;scope-for-new-features-to-be-added&quot;&gt;Scope for new features to be added.&lt;/h4&gt;
+    &lt;p&gt;Adding new features to the existing code base can prove to be a difficult task, due to the freedom to combine the language code with HTML. Also, managing code with a huge codebase can be a difficult task.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-we-opted-for-nodejs&quot;&gt;Why we opted for Node.js?&lt;/h1&gt;
+&lt;p&gt;The factors that played a crucial role in choosing between Node.js and PHP are,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+    &lt;p&gt;When it comes to performance Node.js beats PHP and JavaScript’s speed friendly V8 engine is the reason behind it. The single-threaded, event-driven architecture of Node.js allows it to handle multiple simultaneous connections efficiently. Most web platforms create additional threads for each new request, using up RAM for the whole time it takes to process it. Node, on the other hand, operates on a single thread, making use of the event loop and callbacks for I/O operations, delegating tasks such as database operations as soon as possible. This allows it to handle hundreds of thousands or even a million concurrent connections.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;scalability&quot;&gt;Scalability&lt;/h2&gt;
+    &lt;p&gt;Node.js embraces scalability with powerful features such as the Cluster module enabling load balancing over multiple CPU cores. Robust tools, like PM2 process manager, make it easier to monitor, optimize and deploy Node applications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;microservices-pattern&quot;&gt;Microservices pattern&lt;/h2&gt;
+    &lt;p&gt;Nowadays, most applications are build following microservice patterns. This helps in managing, scaling and extending new features to enterprise-level applications. Node.js and microservices prove to be a nice combination for better performance with less code and efficient deployment.&lt;/p&gt;
+
+    &lt;p&gt;By following the microservice pattern, we can split the enterprise applications to smaller individual units that can be deployed, optimized and managed independently. These small individual units are known as microservices.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;node-package-manager&quot;&gt;Node Package Manager&lt;/h2&gt;
+    &lt;p&gt;NPM ( Node Package Manager ) allows developers and programmers to install, update, develop and use independent opensource software packages and modules. Using these, a developer need not write common features from scratch and could use optimized and efficient versions of code for these features. NPM offers hundreds of thousands of open-source packages, which speeds up the development process and enhances the efficiency of the product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;prior-experience-in-working-with-javascript&quot;&gt;Prior experience in working with JavaScript&lt;/h2&gt;
+    &lt;p&gt;Switching to Node.js was easier for us as our team had prior experience working with Javascript. Node.js being a Javascript framework is similar to Javascript and thus gave us a good head start while learning it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+    &lt;p&gt;When it comes to security, Node.js applications are more secure as in most applications, the codebase for front-end and back-end are hosted separately. Thus, providing access only to concerned developers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary:&lt;/h1&gt;
+&lt;p&gt;Considering the modern-day software requirements, we consider NodeJS to be a clear winner. However, if you don’t have the right experts with a problem-solving attitude in your team, going for a newer framework may land you in different types of roadblocks. You can drop us an email at info@zivost.com for a FREE consultation on the same topic. With over 6 years of experience of building and maintaining NodeJS apps, we’ll be delighted to help you out.&lt;/p&gt;</content><author><name>Vidit Mathur</name><email>vidit@zivost.com</email></author><summary type="html">Introduction This topic has been a very popular debate topic in the apps development industry nowadays. This article is about why we here at Zivost Technologies opted for Node.js over PHP. In this article, I’ll walk you through a brief of both the technologies and why Node.js was a better fit for our use. Both node.js and PHP are widely used for backend development but still have their distinct differences. Backend developers are the ones who fall in the dilemma of choosing between PHP and Node.js. Earlier, Javascript didn’t overlap with PHP. Javascript was used for the front end applications while PHP was used for developing server-side (backend) applications. Now when and why did this dilemma between the two arise? It was when JavaScript in the form of node.js began entering the back-end server. What is Node.js? Node.js is a runtime environment that includes everything that is needed to execute a program that is written in Javascript. Node.js initially appeared when the engineers of Javascript broadened its scope from something you could just keep running in a program on the browser to something you could keep running on your machine as an independent application and serve as a runtime environment. What is PHP? PHP (Hypertext Preprocessor), is a general-purpose programming language originally designed for web development. In 1994, it was developed by Rasmus Lerdorf. PHP is an open-source scripting language that is mostly used in web development and comes along with the feature that it can be directly embedded into HTML. In the case of embedding PHP into HTML, the script is executed on the server-side, generating the HTML which is further sent to the client.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.zivost.com/blogs/node-vs-php/nodevsphp.jpg" /><media:content medium="image" url="https://cdn.zivost.com/blogs/node-vs-php/nodevsphp.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Avoid these mistakes while building a React Native app</title><link href="https://zivost.com/blog/avoid-these-mistakes-while-building-a-react-native-app/" rel="alternate" type="text/html" title="Avoid these mistakes while building a React Native app" /><published>2020-01-30T00:00:00+00:00</published><updated>2020-01-30T00:00:00+00:00</updated><id>https://zivost.com/blog/avoid-these-mistakes-while-building-a-react-native-app</id><content type="html" xml:base="https://zivost.com/blog/avoid-these-mistakes-while-building-a-react-native-app/">&lt;p&gt;While starting a new mobile app project, choosing the right development stack often comes as a challenge. When covering a large part of your target audience is a priority, a platform that supports all the platforms takes the lead and that is React Native.&lt;/p&gt;
+
+&lt;p&gt;Considering the high-quality apps that were built in React Native (Facebook, Instagram &amp;amp; Airbnb to name a few), the outstanding community support and a simple learning curve, React Native has gained popularity among mobile app developers.&lt;/p&gt;
+
+&lt;p&gt;As with most of the awesome things in this universe, React Native development also comes with some challenges.&lt;/p&gt;
+
+&lt;p&gt;I write this article to help you avoid certain challenges which we have already been through and wasted several hours and cups of coffee over it. Let’s jump to the problems straight away with little small talk.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-a-missing-key-attribute-in-flat-list-item&quot;&gt;1. A missing key attribute in Flat List item.&lt;/h2&gt;
+
+&lt;p&gt;If you don’t specify a unique key to your FlatList item, react will re-render every time whenever an item is modified in the list. This will lead to poor performance on your app and results in bad user experience.&lt;/p&gt;
+
+&lt;p&gt;Providing every list item with a unique key will enable a stable identity which avoids re-rendering.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JSX&quot;&gt;&amp;lt;FlatList
+ data={ [1,2,3,4] }
+    keyExtractor={(item, index) =&amp;gt; item.key}
+    renderItem={({item}) =&amp;gt;
+        &amp;lt;Text&amp;gt;{item}&amp;lt;/Text&amp;gt;
+    }
+/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above code has an attribute &lt;strong&gt;keyExtractor&lt;/strong&gt; which saves your app from the performance issues due to re-rendering. &lt;/p&gt;
+
+&lt;p&gt;Be sure not to miss that one out.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-leaving-consolelog-statements-in-the-production-app&quot;&gt;2. Leaving &lt;strong&gt;console.log()&lt;/strong&gt; statements in the production app.&lt;/h2&gt;
+
+&lt;p&gt;Console.log() statements are a blessing when it comes to debugging the app. It lets you point out exactly which line in your code is not working as expected.&lt;/p&gt;
+
+&lt;p&gt;But, leaving &lt;strong&gt;console.log()&lt;/strong&gt; statements in your production code will negatively affect your app performance. Eventually, your app will be slowed down due to bottlenecks in JavaScript threads.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-binding-functions-inside-the-render-method-to-pass-params&quot;&gt;3. Binding functions inside the render method to pass params&lt;/h2&gt;
+
+&lt;p&gt;What if I bind functions inside the render method? While rendering, it will create new methods instead of re-using the old ones!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JSX&quot;&gt;render(){
+    return(
+        &amp;lt;TouchableOpacity onPress={this.callme.bind(this)}&amp;gt;
+            &amp;lt;Text&amp;gt;Press Me&amp;lt;/Text&amp;gt;
+        &amp;lt;/TouchableOpacity&amp;gt;
+    )
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In here, I iterate the &lt;strong&gt;TouchableOpacity&lt;/strong&gt; button inside the map function. This breaks the performance optimization of the app because it creates different callbacks while rendering. You can solve this issue with binding &lt;strong&gt;callme()&lt;/strong&gt; method either in the constructor or you can use property initializer syntax.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JSX&quot;&gt;callme = () =&amp;gt; {
+    console.log(&quot;Pressed&quot;);
+}
+render(){
+    return(
+        &amp;lt;TouchableOpacity onPress={this.callme}&amp;gt;
+            &amp;lt;Text&amp;gt;Press Me&amp;lt;/Text&amp;gt;
+        &amp;lt;/TouchableOpacity&amp;gt;
+    )
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;3-layouts-for-android-and-ios&quot;&gt;3. Layouts for Android and iOS&lt;/h2&gt;
+
+&lt;p&gt;The layout structure of a single page on your app can be completely different on iOS and Android. You need to plan the layouts accordingly.&lt;/p&gt;
+
+&lt;p&gt;What works on Android might not work the same on iOS. For example, Android devices have hardware or soft back-button but none of the iOS devices does. If you plan to skip out on a back button in your UI, it will work on Android but not on iOS.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-image-optimisation&quot;&gt;4. Image Optimisation&lt;/h2&gt;
+
+&lt;p&gt;Be it a website or a mobile app, not optimising images will turn out to be negative on your performance. While web developers have known this fact for years, mobile developers are still figuring out that un-optimised images hinder the performance.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-use-a-proper-project-structure&quot;&gt;5. Use a proper Project Structure&lt;/h2&gt;
+
+&lt;p&gt;While it may not seem to have a proper folder structure initially, a wrong project structure will make it tough for you to manage the project in the long run. Even for small apps, organising your stuff will make your life a whole lot easier.&lt;/p&gt;
+
+&lt;p&gt;If you need help with your structure just drop us an email, we’ll be happy to help you out.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
+
+&lt;p&gt;While this may not be an exhaustive list (we don’t even intend it to be), we will try to add more problems/mistakes as we encounter them. You can write to us at &lt;strong&gt;info@zivost.com&lt;/strong&gt; if you find something important that might benefit others while React Native development. &lt;/p&gt;
+
+&lt;p&gt;Our mission is to save time and efforts of developers like us and delivering high-quality products to our users.&lt;/p&gt;
+
+&lt;p&gt;If you want to build a high-quality app for users, hiring an experienced React Native developer is a good idea. We have been working with React Native since it’s inception. &lt;/p&gt;
+
+&lt;p&gt;Write to us at &lt;strong&gt;info@zivost.com&lt;/strong&gt; for a free development consultation.&lt;/p&gt;</content><author><name>Vishal Rawat</name><email>vishal@zivost.com</email></author><summary type="html">While starting a new mobile app project, choosing the right development stack often comes as a challenge. When covering a large part of your target audience is a priority, a platform that supports all the platforms takes the lead and that is React Native.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.zivost.com/blogs/rn_mistake/rn_mis_2.png" /><media:content medium="image" url="https://cdn.zivost.com/blogs/rn_mistake/rn_mis_2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we built a successful dating app using React Native, NodeJS and MQTT?</title><link href="https://zivost.com/blog/how-we-built-a-successful-dating-app-using-react-native-nodejs-and-mqtt/" rel="alternate" type="text/html" title="How we built a successful dating app using React Native, NodeJS and MQTT?" /><published>2020-01-22T00:00:00+00:00</published><updated>2020-01-22T00:00:00+00:00</updated><id>https://zivost.com/blog/how-we-built-a-successful-dating-app-using-react-native-nodejs-and-mqtt</id><content type="html" xml:base="https://zivost.com/blog/how-we-built-a-successful-dating-app-using-react-native-nodejs-and-mqtt/">&lt;p&gt;We had a simple mindset: Offer a smooth and premium user experience which reflects on the idea behind the app being privacy-focused and judgement-free.&lt;/p&gt;
+
+&lt;p&gt;The challenge seemed small when we started but turned out we had a high expectation of the project and the usual technologies were too sluggish, out-dated or took a lot of implementation hours.&lt;/p&gt;
+
+&lt;p&gt;So, we choose a stack which will promise our customers a wonderful experience which remains our top priority even to this day.&lt;/p&gt;
+
+&lt;h2 id=&quot;competitive-analysis-tech&quot;&gt;&lt;strong&gt;Competitive Analysis (Tech):&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’ve been researching a lot of dating apps and noticed several technical problems that shouldn’t be in our app:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;With cross-platform apps, one platform (iOS usually) lagged in terms of regular updates. One platform was always performing better with fewer bugs and offered greater experience.&lt;/li&gt;
+  &lt;li&gt;Almost all the dating apps have a slow chat as compared to Social Media apps.&lt;/li&gt;
+  &lt;li&gt;Except for a few top ones, many apps offered a sluggish experience in terms of UX and UI and had an inconsistent design language.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-key-challenges&quot;&gt;&lt;strong&gt;The key challenges:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Offer a seamless and similar experience on both platforms (iOS and Android)&lt;/li&gt;
+  &lt;li&gt;Keep app size small (targeting developing nations)&lt;/li&gt;
+  &lt;li&gt;Easy to implement localisation&lt;/li&gt;
+  &lt;li&gt;Minimise server response time&lt;/li&gt;
+  &lt;li&gt;Keep security and privacy as a high priority&lt;/li&gt;
+  &lt;li&gt;Implement a flexible super-fast chat&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;All the points factored in choosing the perfect tech stack.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;the-tech-stack&quot;&gt;&lt;strong&gt;The Tech Stack:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;react-native&quot;&gt;&lt;strong&gt;React Native:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Choosing a robust framework with native-like performance wasn’t a tough decision with only two viable options Flutter and React Native. &lt;/p&gt;
+
+&lt;p&gt;Our team had prior experience in working with ReactJS and considering the tremendous community support we went for React Native.&lt;/p&gt;
+
+&lt;p&gt;React Native solved 3 of our key challenges:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Offer a seamless and similar experience on both platforms (iOS and Android)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;React Native offers a fast experience with appreciable performance. &lt;/p&gt;
+
+&lt;p&gt;It is a cross-platform framework and big giants are using it (Facebook, Instagram, Uber, Airbnb, etc.)&lt;/p&gt;
+
+&lt;p&gt;  2. Keep app size small (targeting developing nations)&lt;/p&gt;
+
+&lt;p&gt;We ended up with a ~20MB APK, sweet!&lt;/p&gt;
+
+&lt;p&gt;  3. Easy to implement localisation&lt;/p&gt;
+
+&lt;p&gt;“react-native-localize” made the process a cakewalk.&lt;/p&gt;
+
+&lt;h3 id=&quot;nodejs&quot;&gt;&lt;strong&gt;NodeJS:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;With years of experience in NodeJS, the choice seemed an easy one.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We were already using JavaScript in the apps&lt;/li&gt;
+  &lt;li&gt;It’s fast (thanks to the v8 engine developed by Google)&lt;/li&gt;
+  &lt;li&gt;Excellent real-time support (more on this in the MQTT section)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;NodeJS along with some secret security implementations of our own (we don’t want to go in detail, obviously!) we solved challenges 4 &amp;amp; 5.&lt;/p&gt;
+
+&lt;h3 id=&quot;microservices&quot;&gt;&lt;strong&gt;Microservices:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;We divided our back-end code into parts to enhance the scalability and reduce server costs at the same time.&lt;/p&gt;
+
+&lt;p&gt;The services looked like:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Users Service&lt;/li&gt;
+  &lt;li&gt;Matching Service&lt;/li&gt;
+  &lt;li&gt;Chat Service&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The three of them are communicating with each other using an open-source Microservices RPC framework we developed in-house called Teade (&lt;a href=&quot;https://github.com/zivost/teade&quot; target=&quot;_blank&quot;&gt;https://github.com/zivost/teade&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;mqtt&quot;&gt;&lt;strong&gt;MQTT:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;With MQTT being lightweight &amp;amp; fast, having a pub/sub mechanism and offering high reliability why should it be restricted to just IoT devices.&lt;/p&gt;
+
+&lt;p&gt;We wanted a solution that didn’t drain our user’s battery (like almost all the chat apps do) and was fast.&lt;/p&gt;
+
+&lt;p&gt;With MQTT we could build a custom and flexible real-time chat implementation that brought down the delivery of messages from a few seconds to a few hundreds of milliseconds. Also, the chat was running on TLS instead of TCP so our goal of security was hindered here.&lt;/p&gt;
+
+&lt;p&gt;A big shout out to the creator of Aedes (&lt;a href=&quot;https://github.com/moscajs/aedes&quot; target=&quot;_blank&quot;&gt;https://github.com/moscajs/aedes&lt;/a&gt;) who made this possible on NodeJS, upon which we built our custom chat framework.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process&quot;&gt;&lt;strong&gt;The process:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Having blessed with a hard-working team, the big challenges seemed small in front of their confidence and spirits.&lt;/p&gt;
+
+&lt;p&gt;The team worked in weekly sprints using an agile methodology. We would hold weekly meetings to discuss the features, challenges, progress and future.&lt;/p&gt;
+
+&lt;p&gt;The process to release v1.0 took nearly 3 months.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-result&quot;&gt;&lt;strong&gt;The result:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Successful implementation of the tech stack in building the application.&lt;/li&gt;
+  &lt;li&gt;Displaying 60 fps, offering a seamless native-like experience.&lt;/li&gt;
+  &lt;li&gt;Almost no hiccups, screen flickers, lags and crashes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And here’s the link you(us too) have been waiting for all the while:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pleb.dating&quot; target=&quot;_blank&quot;&gt;https://pleb.dating&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Zivost</name></author><summary type="html">We had a simple mindset: Offer a smooth and premium user experience which reflects on the idea behind the app being privacy-focused and judgement-free.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.zivost.com/blogs/dating_rn/person-holding-iphone.jpg" /><media:content medium="image" url="https://cdn.zivost.com/blogs/dating_rn/person-holding-iphone.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">XCODE 10 causes haywire for React Native Developers</title><link href="https://zivost.com/blog/xcode-10-causes-haywire-for-react-native-developers/" rel="alternate" type="text/html" title="XCODE 10 causes haywire for React Native Developers" /><published>2018-10-01T00:00:00+00:00</published><updated>2018-10-01T00:00:00+00:00</updated><id>https://zivost.com/blog/xcode-10-causes-haywire-for-react-native-developers</id><content type="html" xml:base="https://zivost.com/blog/xcode-10-causes-haywire-for-react-native-developers/">&lt;p&gt;React Native today is one of the (if not the most) popular languages to build apps for Android and iOS. Companies that are building on react-native consist of AirBnB, Facebook, UberEats, Discord, Tesla and many more, giving react-native a huge community that increases the popularity and stability of the language.&lt;/p&gt;
+
+&lt;p&gt;Recently Apple announced MacOS Mojave, iOS12 and launched the new iPhones (iPhone XS, iPhone XS Max and iPhone XR) and with these announcements came Xcode 10.&lt;/p&gt;
+
+&lt;p&gt;Xcode 10 boasts a load of new features including ‘Editor enhancements’, ‘faster symbol downloads’ and ‘a new build system’. (see more at: https://developer.apple.com/xcode/whats-new/)&lt;/p&gt;
+
+&lt;p&gt;Like any big upgrade to an IDE, this breaks a lot of projects that may not have been upgraded from some time. Maybe you have upgraded your project but the dependencies that you have in your project may not have. Over the last few days, I have been fixing multiple projects built using various versions of react-native and it’s mostly being a time consuming activity with a lot of debugging and trial-runs. So this is an effort to compile most of these errors and their solutions in a single place to ease the efforts of other developers.&lt;/p&gt;
+
+&lt;p&gt;Let’s start.&lt;/p&gt;
+
+&lt;p&gt;Mostly, I found these issues with projects using&lt;code class=&quot;highlighter-rouge&quot;&gt;react-native &amp;lt;= 0.57&lt;/code&gt;but you may face it in higher versions as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: Most of these issues are just a temporary fix and will need to be repeated each time you clone your code. So it is recommended that you upgrade your react and react-native versions as soon as possible&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;double-conversion-or-lexical-issue&quot;&gt;Double Conversion or Lexical Issue&lt;/h2&gt;
+
+&lt;h4 id=&quot;errors-covered&quot;&gt;Errors covered&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lexical or Preprocessor Issue &amp;gt; config.h file not found.&lt;/li&gt;
+  &lt;li&gt;Lexical or Preprocessor Issue &amp;gt; logging.h file not found. (glog/logging.h or glog/*.h)&lt;/li&gt;
+  &lt;li&gt;Build input file double-conversion cannot be found.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first issue you might face is the &lt;strong&gt;Lexical or Preprocessor issue&lt;/strong&gt; or &lt;strong&gt;Double Conversion not found Error&lt;/strong&gt;. There are multiple fixes on github regarding this error, while most of them have a different method to solve it, they all end up re-compiling a third party library named&lt;code class=&quot;highlighter-rouge&quot;&gt;glog&lt;/code&gt;which is a &lt;strong&gt;C++ implementation of the Google logging module&lt;/strong&gt; found &lt;a href=&quot;https://github.com/google/glog&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Resolving this issue is as simple as re-building the module manually, which is more of an inconvience if anything.&lt;/p&gt;
+
+&lt;p&gt;Run the following commands in the root of your react-native project.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;node_modules/react-native/third-party/glog-0.3.x
+./configure
+make
+make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Other solutions include running &lt;code class=&quot;highlighter-rouge&quot;&gt;../../scripts/ios-install-third-party.sh&lt;/code&gt; and&lt;code class=&quot;highlighter-rouge&quot;&gt;../../scripts/ios-configure-glog.sh&lt;/code&gt;which re-installs the third-party modules and then rebuild it. But if your project was running before the Xcode upgrade, this might not be required as you probably have the right versions of the modules.&lt;/p&gt;
+
+&lt;h4 id=&quot;update-august-2019&quot;&gt;Update (August 2019)&lt;/h4&gt;
+
+&lt;p&gt;This issue is still persistent even if you init a new project using &lt;code class=&quot;highlighter-rouge&quot;&gt;react-native init AwesomeProject --version 0.59.10&lt;/code&gt;. The version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.59.10&lt;/code&gt; was supposed to fix the Lexical issues but the situation is still the same. Thankfully the solution is still to just rebuild the glog module using the above command.&lt;/p&gt;
+
+&lt;h2 id=&quot;rctwebsocket---libfishhooka-is-missing&quot;&gt;RCTWebSocket - libfishhook.a is missing&lt;/h2&gt;
+
+&lt;h4 id=&quot;errors-covered-1&quot;&gt;Errors Covered&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Build input file cannot be found: '.../node_modules/react-native/Libraries/WebSocket/libfishhook.a'&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;solution&quot;&gt;Solution&lt;/h4&gt;
+
+&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;Build Phases&lt;/code&gt; of the target where you are getting the error&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Locate the &lt;code class=&quot;highlighter-rouge&quot;&gt;libfishhook.a&lt;/code&gt;binary file in&lt;code class=&quot;highlighter-rouge&quot;&gt;Link Binary with Libraries&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Remove &lt;code class=&quot;highlighter-rouge&quot;&gt;libfishhook.a&lt;/code&gt; (if exists)&lt;/li&gt;
+  &lt;li&gt;Re-Add &lt;code class=&quot;highlighter-rouge&quot;&gt;libfishhook.a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.zivost.com/blogs/xcode_fix/xcode_fix_libfishhook.gif&quot; alt=&quot;https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the following does not resolve the issue then find the &lt;code class=&quot;highlighter-rouge&quot;&gt;libfishhook.a&lt;/code&gt;file from any project and paste it in &lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules/react-native/Libraries/WebSocket/&lt;/code&gt;. I have uploaded this file and you can also do the following in the project’s root folder.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/libfishhook.a &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; node_modules/react-native/Libraries/WebSocket/libfishhook.a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;semantic-issue&quot;&gt;Semantic Issue&lt;/h2&gt;
+
+&lt;p&gt;This error seems to only occur with &lt;code class=&quot;highlighter-rouge&quot;&gt;react-native &amp;lt;= 0.56&lt;/code&gt; and is fixed with &lt;code class=&quot;highlighter-rouge&quot;&gt;v0.57&lt;/code&gt;. It is recommended to upgrade the version and this process should be faily easier. Remember if you upgrade manually, always create a new branch and test everything before commiting.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: If you upgrade the react native version, and re-run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt; you may face the other errors from this blog that you may have already fixed, so just repeat that process.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;errors-covered-2&quot;&gt;Errors Covered&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;No member named '__rip' in '__darwin_i386_thread_state'; did you mean '__eip'?&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;solution-1&quot;&gt;Solution&lt;/h4&gt;
+
+&lt;p&gt;Run the following commands in the root of your react-native project.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;node_modules/react-native/third-party/glog-0.3.x
+./configure &lt;span class=&quot;nt&quot;&gt;--host&lt;/span&gt; arm-apple-darwin
+make
+make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules/react-native/third-party/glog-0.3.4/src/config.h&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Replace:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;/* How to access the PC from a struct ucontext */
+#define PC_FROM_UCONTEXT uc_mcontext-&amp;gt;__ss.__rip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;/* How to access the PC from a struct ucontext */
+#if defined(__arm__) || defined(__arm64__)
+#define PC_FROM_UCONTEXT uc_mcontext-&amp;gt;__ss.__pc
+#else
+#define PC_FROM_UCONTEXT uc_mcontext-&amp;gt;__ss.__rip
+#endif
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/react-native/issues/19839#issuecomment-422390104&quot;&gt;Issue/Solution Reference&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;multiple-commands-produce--infoplist&quot;&gt;Multiple commands produce … Info.plist&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Showing Recent Messages
+:-1: Multiple commands produce &lt;span class=&quot;s1&quot;&gt;'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'&lt;/span&gt;:
+1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; Target &lt;span class=&quot;s1&quot;&gt;'eSportsGlobalGamers'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;project &lt;span class=&quot;s1&quot;&gt;'eSportsGlobalGamers'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; has copy &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;from &lt;span class=&quot;s1&quot;&gt;'/Users/rohithazra/Work/brisik-mobile/ios/eSportsGlobalGamers/Info.plist'&lt;/span&gt; to &lt;span class=&quot;s1&quot;&gt;'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'&lt;/span&gt;
+2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; Target &lt;span class=&quot;s1&quot;&gt;'eSportsGlobalGamers'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;project &lt;span class=&quot;s1&quot;&gt;'eSportsGlobalGamers'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; has process &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;with output &lt;span class=&quot;s1&quot;&gt;'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now this error I faced in an older version of &lt;code class=&quot;highlighter-rouge&quot;&gt;react-native v0.4x&lt;/code&gt; and can easily be fixed by removing &lt;code class=&quot;highlighter-rouge&quot;&gt;Info.plist&lt;/code&gt; from &lt;code class=&quot;highlighter-rouge&quot;&gt;Build Phases&lt;/code&gt; of your project’s &lt;code class=&quot;highlighter-rouge&quot;&gt;Targets&lt;/code&gt;. See image for reference.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.zivost.com/blogs/xcode_fix/info_plist_error.png&quot; alt=&quot;https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/info_plist_error.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;multiple-linking-errors&quot;&gt;Multiple linking errors&lt;/h2&gt;
+
+&lt;p&gt;You may encounter multiple errors related to linking or missing libraries. To solve those issues you should try the following.&lt;/p&gt;
+
+&lt;p&gt;In the root folder of your react-native project&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Execute &lt;code class=&quot;highlighter-rouge&quot;&gt;react-native link&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;or&quot;&gt;OR&lt;/h4&gt;
+
+&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;Build Phases&lt;/code&gt; of the target where you are getting the error&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Locate the library/file in &lt;code class=&quot;highlighter-rouge&quot;&gt;Copy Bundle Resources&lt;/code&gt; and/or &lt;code class=&quot;highlighter-rouge&quot;&gt;Link Binary with Libraries&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Remove the library/file&lt;/li&gt;
+  &lt;li&gt;Re-Add the library/file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While the above errors do cover the most major errors, you may still face certain unknown errors depending on your project and it’s dependencies. You can always raise an issue on GitHub or StackOverflow and also reach out to me on Twitter @rohithzr&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-i-think-of-the-new-build-system&quot;&gt;What do I think of the new build system?&lt;/h2&gt;
+
+&lt;p&gt;The new build system definately seems faster and more optimized than ever before. There are a few caveats and some things are breaking but it does not mean that the build system is bad or was not tested thoroughly, it simply means that a few older libraries fail to work, which you should upgrade whenever you get the chance.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS: The Dark mode is Dank!&lt;/em&gt;&lt;/p&gt;</content><author><name>Rohit Hazra</name><email>rohit@zivost.com</email></author><category term="xcode" /><category term="double-conversion" /><category term="config.h" /><category term="lexical" /><category term="xcode10" /><category term="glog" /><category term="libfishhook.a" /><category term="react-native" /><summary type="html">React Native today is one of the (if not the most) popular languages to build apps for Android and iOS. Companies that are building on react-native consist of AirBnB, Facebook, UberEats, Discord, Tesla and many more, giving react-native a huge community that increases the popularity and stability of the language.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg" /><media:content medium="image" url="https://cdn.zivost.com/blogs/xcode_fix/blog_header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Convert Your Ideas into an APP</title><link href="https://zivost.com/blog/convert-your-ideas-into-an-app/" rel="alternate" type="text/html" title="Convert Your Ideas into an APP" /><published>2018-06-22T00:00:00+00:00</published><updated>2018-06-22T00:00:00+00:00</updated><id>https://zivost.com/blog/convert-your-ideas-into-an-app</id><content type="html" xml:base="https://zivost.com/blog/convert-your-ideas-into-an-app/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;India is the fourth largest app economy in the world which shows the rise in the app development market in India. It is contemplated that by the end of year 2020 app downloads may cross 20 billion marks. Statistics states that in India about 97% users rely on the mobile app over websites.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Here is the list of the app’s companies that have completely rely on their business profits to the mobile applications such as Redbus, Zomato, Uber, Ola, Paytm etc.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-get-started&quot;&gt;How to get started?&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-pen-down-all-your-ideas&quot;&gt;A. Pen down all your ideas&lt;/h3&gt;
+
+&lt;p&gt;Do not isolate your ideas with the different possibilities attached while turning it into an app. We recommend you write down every single idea that strikes in your mind. Ideas can pitch at anywhere or anytime so, it is important to write those ideas on notebook or Google Docs. It is important to pen down every idea before you forget because you never know, one of those ideas might be the next big thing.&lt;/p&gt;
+
+&lt;h3 id=&quot;b-choose-the-idea-that-pursue-you-the-most&quot;&gt;B. Choose the idea that pursue you the most&lt;/h3&gt;
+
+&lt;p&gt;While writing each idea there comes a situation that your mind sticks with one idea for a very long time. We are sure there is that one idea that you really want to pursue. Isolate that idea and start thinking different possibilities with it.&lt;/p&gt;
+
+&lt;h3 id=&quot;c-check-application-feasibility&quot;&gt;C. Check application feasibility&lt;/h3&gt;
+
+&lt;p&gt;Above steps will take your idea to Minimum Viable Product (MVP) which can be released, reviewed and improved. When you get the essence of the idea then it is important to check the feasibility in the real market.&lt;/p&gt;
+
+&lt;h3 id=&quot;d-what-is-a-minimum-viable-product&quot;&gt;D. What is a Minimum Viable Product?&lt;/h3&gt;
+
+&lt;p&gt;MVP states the product first release which consists of basic feature for the early customers. It helps in providing at least the sample product which is launched as initial release. You can improve your product in upcoming iterative release. It helps in gaining user reviews and you can develop with the much better approach.&lt;/p&gt;
+
+&lt;h3 id=&quot;e-competition-test&quot;&gt;E. Competition Test&lt;/h3&gt;
+
+&lt;p&gt;How to be sure that there exists a market for your products the answer is competition. Your app may be facing the problem in MVP test then you have to identify the problem and develop the solution. Competition may be dealing with the same problem you can take the reference and make your product distinguish from others.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.zivost.com/blogs/app_ideas/code.jpeg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-create-a-feature-set&quot;&gt;A. Create a feature set&lt;/h3&gt;
+
+&lt;p&gt;A feature set is a written document that details the specification of the app. It is wrapped with specification such as the design of the app and description of the technology needed. Feature set enables the platform for the better communication of your vision with team members, developers, and investors.&lt;/p&gt;
+
+&lt;h3 id=&quot;feature-set-would-be-like&quot;&gt;Feature set would be like:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Introduction to your product.&lt;/li&gt;
+  &lt;li&gt;The vision of your app (design, product, and business).&lt;/li&gt;
+  &lt;li&gt;The detailed description of the technical feature.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;b-create-a-wireframe&quot;&gt;B. Create a wireframe&lt;/h3&gt;
+
+&lt;p&gt;In a layman word, it is the blueprint of the product and the best way to implement it by using pen and paper. It helps to create basic framework as described above of the different screens that would be included in the app. While creating a basic wireframe, most important part is to stick with your main goal do not get carried away envisioning unnecessary elements.&lt;/p&gt;
+
+&lt;h3 id=&quot;c-coding&quot;&gt;C. Coding&lt;/h3&gt;
+
+&lt;p&gt;In-app development eventually all comes down to the coding, now the question arises whether code yourself or to outsource?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You can either hire an app development agency (like www.zivost.com) which will provide complete solutions to your application.&lt;/li&gt;
+  &lt;li&gt;You can either develop with your own team.&lt;/li&gt;
+  &lt;li&gt;You can build it yourself.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;d-review-and-rebuild-with-market-feedback&quot;&gt;D. Review and Rebuild with market feedback&lt;/h3&gt;
+
+&lt;p&gt;Although this is the fourth phase in the framework of this blog, you are still at very early stages of app development process. Only once your app is out will you be able to see its positive features and defects. Review and Rebuild phase allows your product to evolve and improve with feedback and input from the market.&lt;/p&gt;
+
+&lt;h1 id=&quot;business-development&quot;&gt;Business Development&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Your app should have a vision of how it will create business for you, first thing first it should have researched pricing as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Hire those that can provide your idea into a lucrative product within your budget.&lt;/li&gt;
+  &lt;li&gt;Selection of the platform for initial stage is an important decision.&lt;/li&gt;
+  &lt;li&gt;Check out the developer’s previous records as it is a full stack development.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After production phase product reaches the market, you have to apply different marketing strategy to increase your product reach. According to us involving in the conversation with those people who are fulfilling startup goals provides you better direction and motivation.&lt;/p&gt;</content><author><name>Zivost</name></author><summary type="html">Introduction</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cdn.zivost.com/blogs/app_ideas/kanban.jpg" /><media:content medium="image" url="https://cdn.zivost.com/blogs/app_ideas/kanban.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
