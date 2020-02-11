@@ -11,8 +11,8 @@ commit_website_files() {
   git clone https://rohithzr:${github_token}@github.com/zivost/zivost-com.git dist
   cd dist
   git checkout gh-pages
+  rm -rf ./*
   cp -R ../_site/* ./
-  rm -rf ../_site
   git add .
   git commit -a -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
