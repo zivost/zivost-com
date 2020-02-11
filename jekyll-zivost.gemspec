@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "hawkins"
+  spec.add_development_dependency "hawkins", "~> 2.0.5"
 end
