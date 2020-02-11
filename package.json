@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp --watch",
     "build": "rimraf _site && bundle exec jekyll build",
-    "deploy": "firebase deploy"
+    "deploy": "rimraf _site && bundle exec jekyll build && firebase deploy"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
