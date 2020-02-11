@@ -7,6 +7,7 @@ image:
     height: 1200
     width: 628
 mathjax: true
+author: harsh_nigam
 ---
 
 We had a simple mindset: Offer a smooth and premium user experience which reflects on the idea behind the app being privacy-focused and judgement-free.

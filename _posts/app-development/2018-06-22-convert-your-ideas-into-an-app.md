@@ -7,6 +7,7 @@ image:
     height: 1200
     width: 628
 mathjax: true
+author: harsh_nigam
 ---
 
 # Introduction
