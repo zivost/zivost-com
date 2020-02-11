@@ -17,7 +17,7 @@ cache:
   - node_modules
 deploy:
   provider: firebase
-  project: zivost-e73ea
+  project: zivost-com
   skip_cleanup: true
   token:
     secure: OXbHeZBww4DCZbXvJ/AKMYNM2lUxZB/2qEGDbe3f6i/+wvE+WIYbVUHguVDsJXXPjISyapw3Zds+js2K8SzPQI4UYDt2l87JamQJx2kabbe2sNlml6cMVrB3FwdkEaV870WWK1Nyn2uxl6IDAbEEfEf4kOKu8IEdAa7WYQHD2raUNvemItfxPfyI2RppDa/+vyORfTnDdSOqftykzDQkMJQEsHs9tDKAeqoSRpG2duL+Ou0Zw9glgpd59OSnJGFugkcGuzML0be2zfbtiBteMtDcnRUUBjPUpFflf9+4bIR3AFrzHiqNlUqzN/7TtX4waXlWrvNiyGr7dMGFkSh1OQSxgsIijEX7YkO0aQ0n+899ksAsxgMOfysb/5SXjISjZVGuR8Zwfo6JgJdxZXzzse6JP5JB4a0Bnlpm4kYNLprx+nflgR6Y/5jPbbz5gfleXObQv9kqFn3LMaRjQwWiBkZpSRmH+xGVa0r7/QyZdIyE0i6bcH3HlMIsdy0TlJwbJwEZ8/YWCDK6SUCGgBzSJyxAEEvgshs4k5lngA57t4SGXCFhzOgejfJ+i1gYbbvX4um+4N6gKXJIM00nI5zN0oY3kOuyoiDXF1QBAgfVQwdnq4cNBtPJbUK1nKA1/+N4EoX++DOTfP+bHx94rCAdRQzSIRBrQdInb9qkwwGTPFI=
