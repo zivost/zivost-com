@@ -17,7 +17,6 @@ cache:
   bundler: true
   directories:
   - node_modules
-  - vendor
 notifications:
   email: false
   slack:
