@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp --watch",
-    "build": "gulp build",
+    "build": "rimraf _site && bundle exec jekyll build",
     "deploy": "firebase deploy"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "fg-loadcss": "^2.1.0",
     "jquery": "^3.4.1",
     "lazysizes": "^5.2.0",
+    "rimraf": "^3.0.2",
     "velocity-animate": "^1.5.2"
   },
   "devDependencies": {

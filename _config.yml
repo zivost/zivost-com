@@ -66,6 +66,9 @@ exclude:
   - npm-debug.log
   - gulpfile.js
   - sleek.jpg
+  - firebase.json
+  - jekyll-zivost-0.1.8.gem
+  - jekyll-zivost.gemspec
 
 include: ['_pages']
 permalink: blog/:title/
