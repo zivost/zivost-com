@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-zivost"
-  spec.version       = "0.1.8"
+  spec.version       = "0.1.9"
   spec.authors       = ["Rohit Hazra"]
   spec.email         = ["rohit@zivost.com"]
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
-  spec.add_runtime_dependency "jekyll", "~> 4.0"
+  spec.add_runtime_dependency "jekyll"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.4"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
   spec.add_runtime_dependency "jekyll-tagging", "~> 1.1"
@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "hawkins"
 end
