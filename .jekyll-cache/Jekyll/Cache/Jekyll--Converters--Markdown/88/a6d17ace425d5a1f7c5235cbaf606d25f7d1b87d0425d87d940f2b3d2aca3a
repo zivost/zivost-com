@@ -1,0 +1,144 @@
+I"�'<p>React Native today is one of the (if not the most) popular languages to build apps for Android and iOS. Companies that are building on react-native consist of AirBnB, Facebook, UberEats, Discord, Tesla and many more, giving react-native a huge community that increases the popularity and stability of the language.</p>
+
+<p>Recentl,y Apple announced MacOS Mojave, iOS12 and launched the new iPhones (iPhone XS, iPhone XS Max and iPhone XR) and with these announcements came Xcode 10.</p>
+
+<p>Xcode 10 boasts a load of new features including ‘Editor enhancements’, ‘faster symbol downloads’ and ‘a new build system’. (see more at: https://developer.apple.com/xcode/whats-new/)</p>
+
+<p>Like any big upgrade to an IDE, this breaks a lot of projects that may not have been upgraded from some time. Maybe you have upgraded your project but the dependencies that you have in your project may not have. Over the last few days, I have been fixing multiple projects built using various versions of react-native and it’s mostly being a time consuming activity with a lot of debugging and trial-runs. So this is an effort to compile most of these errors and their solutions in a single place to ease the efforts of other developers.</p>
+
+<p>Let’s start.</p>
+
+<p>Mostly, I found these issues with projects using<code class="highlighter-rouge">react-native &lt;= 0.57</code>but you may face it in higher versions as well.</p>
+
+<p><strong>Note: Most of these issues are just a temporary fix and will need to be repeated each time you clone your code. So it is recommended that you upgrade your react and react-native versions as soon as possible</strong></p>
+
+<h2 id="double-conversion-or-lexical-issue">Double Conversion or Lexical Issue</h2>
+
+<h4 id="errors-covered">Errors covered</h4>
+
+<ul>
+  <li>Lexical or Preprocessor Issue &gt; config.h file not found.</li>
+  <li>Build input file double-conversion cannot be found.</li>
+</ul>
+
+<p>The first issue you might face is the <strong>Lexical or Preprocessor issue</strong> or <strong>Double Conversion not found Error</strong>. There are multiple fixes on github regarding this error, while most of them have a different method to solve it, they all end up re-compiling a third party library named<code class="highlighter-rouge">glog</code>which is a <strong>C++ implementation of the Google logging module</strong> found <a href="https://github.com/google/glog">here</a>.</p>
+
+<p>Resolving this issue is as simple as re-building the module manually, which is more of an inconvience if anything.</p>
+
+<p>Run the following commands in the root of your react-native project.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>node_modules/react-native/third-party/glog-0.3.x
+./configure
+make
+make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Other solutions include running <code class="highlighter-rouge">../../scripts/ios-install-third-party.sh</code> and<code class="highlighter-rouge">../../scripts/ios-configure-glog.sh</code>which re-installs the third-party modules and then rebuild it. But if your project was running before the Xcode upgrade, this might not be required as you probably have the right versions of the modules.</p>
+
+<h2 id="rctwebsocket---libfishhooka-is-missing">RCTWebSocket - libfishhook.a is missing</h2>
+
+<h4 id="errors-covered-1">Errors Covered</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">Build input file cannot be found: '.../node_modules/react-native/Libraries/WebSocket/libfishhook.a'</code></li>
+</ul>
+
+<h4 id="solution">Solution</h4>
+
+<p>In <code class="highlighter-rouge">Build Phases</code> of the target where you are getting the error</p>
+
+<ul>
+  <li>Locate the <code class="highlighter-rouge">libfishhook.a</code>binary file in<code class="highlighter-rouge">Link Binary with Libraries</code></li>
+  <li>Remove <code class="highlighter-rouge">libfishhook.a </code> (if exists)</li>
+  <li>Re-Add <code class="highlighter-rouge">libfishhook.a</code></li>
+</ul>
+
+<p><img src="https://cdn.zivost.com/blogs/xcode_fix/xcode_fix_libfishhook.gif" alt="https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/ezgif.com-optimize.gif" /></p>
+
+<p>If the following does not resolve the issue then find the <code class="highlighter-rouge">libfishhook.a</code>file from any project and paste it in <code class="highlighter-rouge">node_modules/react-native/Libraries/WebSocket/</code>. I have uploaded this file and you can also do the following in the project’s root folder.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/libfishhook.a <span class="nt">-O</span> node_modules/react-native/Libraries/WebSocket/libfishhook.a
+</code></pre></div></div>
+
+<h2 id="semantic-issue">Semantic Issue</h2>
+
+<p>This error seems to only occur with <code class="highlighter-rouge">react-native &lt;= 0.56</code> and is fixed with <code class="highlighter-rouge">v0.57</code>. It is recommended to upgrade the version and this process should be faily easier. Remember if you upgrade manually, always create a new branch and test everything before commiting.</p>
+
+<p><em>Note: If you upgrade the react native version, and re-run <code class="highlighter-rouge">npm install</code> you may face the other errors from this blog that you may have already fixed, so just repeat that process.</em></p>
+
+<h4 id="errors-covered-2">Errors Covered</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">No member named '__rip' in '__darwin_i386_thread_state'; did you mean '__eip'?</code></li>
+</ul>
+
+<h4 id="solution-1">Solution</h4>
+
+<p>Run the following commands in the root of your react-native project.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>node_modules/react-native/third-party/glog-0.3.x
+./configure <span class="nt">--host</span> arm-apple-darwin
+make
+make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Edit <code class="highlighter-rouge">node_modules/react-native/third-party/glog-0.3.4/src/config.h</code></p>
+
+<p>Replace:</p>
+
+<pre><code class="language-objective-c">/* How to access the PC from a struct ucontext */
+#define PC_FROM_UCONTEXT uc_mcontext-&gt;__ss.__rip
+</code></pre>
+
+<p>With:</p>
+
+<pre><code class="language-objective-c">/* How to access the PC from a struct ucontext */
+#if defined(__arm__) || defined(__arm64__)
+#define PC_FROM_UCONTEXT uc_mcontext-&gt;__ss.__pc
+#else
+#define PC_FROM_UCONTEXT uc_mcontext-&gt;__ss.__rip
+#endif
+</code></pre>
+
+<p><a href="https://github.com/facebook/react-native/issues/19839#issuecomment-422390104">Issue/Solution Reference</a></p>
+
+<h2 id="multiple-commands-produce--infoplist">Multiple commands produce … Info.plist</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Showing Recent Messages
+:-1: Multiple commands produce <span class="s1">'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'</span>:
+1<span class="o">)</span> Target <span class="s1">'eSportsGlobalGamers'</span> <span class="o">(</span>project <span class="s1">'eSportsGlobalGamers'</span><span class="o">)</span> has copy <span class="nb">command </span>from <span class="s1">'/Users/rohithazra/Work/brisik-mobile/ios/eSportsGlobalGamers/Info.plist'</span> to <span class="s1">'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'</span>
+2<span class="o">)</span> Target <span class="s1">'eSportsGlobalGamers'</span> <span class="o">(</span>project <span class="s1">'eSportsGlobalGamers'</span><span class="o">)</span> has process <span class="nb">command </span>with output <span class="s1">'/Users/rohithazra/Library/Developer/Xcode/DerivedData/eSportsGlobalGamers-gpegqsfkbrlhfkboegxcboihfklf/Build/Products/Debug-iphonesimulator/eSportsGlobalGamers.app/Info.plist'</span>
+</code></pre></div></div>
+
+<p>Now this error I faced in an older version of <code class="highlighter-rouge">react-native v0.4x</code> and can easily be fixed by removing <code class="highlighter-rouge">Info.plist</code> from <code class="highlighter-rouge">Build Phases</code> of your project’s <code class="highlighter-rouge">Targets</code>. See image for reference.</p>
+
+<p><img src="https://cdn.zivost.com/blogs/xcode_fix/info_plist_error.png" alt="https://s3.ap-south-1.amazonaws.com/zivost/xcode10_fix/info_plist_error.png" /></p>
+
+<h2 id="multiple-linking-errors">Multiple linking errors</h2>
+
+<p>You may encounter multiple errors related to linking or missing libraries. To solve those issues you should try the following.</p>
+
+<p>In the root folder of your react-native project</p>
+
+<ul>
+  <li>Execute <code class="highlighter-rouge">react-native link</code></li>
+</ul>
+
+<h4 id="or">OR</h4>
+
+<p>In <code class="highlighter-rouge">Build Phases</code> of the target where you are getting the error</p>
+
+<ul>
+  <li>Locate the library/file in <code class="highlighter-rouge">Copy Bundle Resources</code> and/or <code class="highlighter-rouge">Link Binary with Libraries</code></li>
+  <li>Remove the library/file</li>
+  <li>Re-Add the library/file</li>
+</ul>
+
+<p>While the above errors do cover the most major errors, you may still face certain unknown errors depending on your project and it’s dependencies. You can always raise an issue on GitHub or StackOverflow and also reach out to me on Twitter @rohithzr</p>
+
+<h2 id="what-do-i-think-of-the-new-build-system">What do I think of the new build system?</h2>
+
+<p>The new build system definately seems faster and more optimized than ever before. There are a few caveats and some things are breaking but it does not mean that the build system is bad or was not tested thoroughly, it simply means that a few older libraries fail to work, which you should upgrade whenever you get the chance.</p>
+
+<p><em>PS: The Dark mode is Dank!</em></p>
+:ET
