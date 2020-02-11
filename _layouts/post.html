@@ -67,8 +67,9 @@ layout: compress
             <div class="avatar-module">
               <img class="avatar" height="100px" src="{{ author.picture }}">
             </div>
-            <div>
+            <div class="author-content">
               <span class="author-link">{{ author.name }}</span>
+              <div class="author-bio-mobile">{{ author.bio }}</div>
               <div class="circle-img-linkedin">
                 <a href="{{ author.linkedin }}" target="_blank" class="btn btn-linkedin">
                   <i class="fa fa-linkedin fa-fw"></i><span> Let's connect!</span>
@@ -111,6 +112,17 @@ layout: compress
           {% endif %}
         </div>
       </div> -->
+      <div class="recentPosts main-area lazyloaded">
+      {% assign count = 0 %} 
+      {% for recentPost in site.posts limit:4 %}
+        {% if page.url != recentPost.url and count <= 2 %}
+        {% assign count = count | plus:1 %}
+          <div class="recentPost">
+            {% include card.html recentPost=recentPost %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      </div>
     </div>
     {% if site.disqus.shortname %}
     <div class="comments">

@@ -98,30 +98,95 @@ span.author-link {
 .author-bio {
   max-width: 75%;
 }
-
-// @media (max-width:750px) {
-//   .article-footer {
-//       display: inherit;
-//       margin: 0px;
-//   }
-//   .avatar-module {
-//       display: inherit;
-//       vertical-align: none;
-//       width: 120px;
-//   }
-//   .avatar-module img {
-//       margin-left: auto;
-//       margin-right: auto;
-//       display: block;
-//       float: none;
-//       margin-top: 0px;
-//   }
-//   .article-footer p {
-//       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-//       text-align: center;
-//       padding-left: 0px;
-//   }
-// }
+.author-bio-mobile{
+  display: none;
+}
+@media (max-width:750px) {
+  .recentPost:nth-child(3){
+    display: none;
+  }
+  .recentPost{
+    width: 45% !important;
+  }
+  .avatar-module{
+    display: flex;
+    width: 100%;
+  }
+  .avatar-module img{
+    margin: auto;
+  }
+  .circle-img-linkedin{
+    float: unset !important;
+  }
+  .author-bio{
+    display: none;
+  }
+  .author-bio-mobile{
+    display: block;
+  }
+  .author-content{
+    text-align: center;
+  }
+  .post-content{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .hero__title{
+    font-size: 1.7em;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+  .hero__meta{
+    margin-left: 10px;
+  }
+  .heros{
+    height: 130px;
+    background-size: cover;
+  }
+  // .article-footer {
+  //     display: inherit;
+  //     margin: 0px;
+  // }
+  // .avatar-module {
+  //     display: inherit;
+  //     vertical-align: none;
+  //     width: 120px;
+  // }
+  // .avatar-module img {
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //     display: block;
+  //     float: none;
+  //     margin-top: 0px;
+  // }
+  // .article-footer p {
+  //     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  //     text-align: center;
+  //     padding-left: 0px;
+  // }
+}
+.header__inner{
+  width: 100%;
+  margin-right: 0;
+}
+@media (min-width:1000px) {
+  .header__links{
+    margin-top: 0 
+  }
+  .header__inner{
+    margin-right: 0;
+  }
+  .heros{
+    height: 130px;
+  }
+  .header .social{
+    padding-right: 40px;
+  }
+  .header__toggle{
+    margin-right: 30px;
+  }
+}
 
 .circle-img-linkedin {
   padding-top: 10px;
@@ -171,4 +236,19 @@ a, img a {
 
 a.btn.btn-linkedin span {
   border-left: solid 1px #ffffff;
+}
+
+.recentPosts{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 25px;
+}
+.recentPost{
+  width: 30%;
+  float: left;
+}
+
+.post-card-full{
+  width: 100%;
+  font-size: smaller;
 }

@@ -12,7 +12,7 @@ $( document ).ready( function() {
 
 // Close modal if ESC is pressed
 $( document ).keyup( function( e ) {
-    e.keyCode === 27 ? removeModal() : null;
+    return e.keyCode === 27 ? removeModal() : null;
 } );
 
 $( window ).resize( function() {
