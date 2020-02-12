@@ -7,6 +7,7 @@ image:
     height: 1200
     width: 628
 mathjax: true
+tags: [ideas,mobile-development,app-development]
 author: harsh_nigam
 ---
 
