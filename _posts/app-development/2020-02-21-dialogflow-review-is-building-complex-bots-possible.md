@@ -24,8 +24,6 @@ We went through the long documentation of the various bot services in the market
 
 # **The Good**
 
-&nbsp;
-
 ## **Straightforward**
 
 Getting started with Dialogflow was simple and straightforward, the documentation was clear and easy to follow with the terminology being described in simple language. We were able to build a basic functional bot within minutes which consisted of a couple of intents, training phrases and some witty responses.
@@ -51,8 +49,6 @@ With features like History, Analytics, Training and the newly introduced Validat
 &nbsp;
 
 # **The Bad**
-
-&nbsp;
 
 ## **Flexibility**
 
