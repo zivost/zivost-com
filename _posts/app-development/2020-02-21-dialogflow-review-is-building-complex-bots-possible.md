@@ -22,9 +22,9 @@ We went through the long documentation of the various bot services in the market
 
 &nbsp;
 
-# **The Good**
+# The Good
 
-## **Straightforward**
+## Straightforward
 
 Getting started with Dialogflow was simple and straightforward, the documentation was clear and easy to follow with the terminology being described in simple language. We were able to build a basic functional bot within minutes which consisted of a couple of intents, training phrases and some witty responses.
 
@@ -32,7 +32,7 @@ Digging deep was simple as well. Topics like follow-up intents, contexts, webhoo
 
 &nbsp;
 
-## **Integrations**
+## Integrations
 
 With new additions like Voximplant, Genesys Cloud and Signalwire the range of integrations Dialogflow provides, matches with no other.
 
@@ -42,15 +42,15 @@ Dialogflow would be a no brainer if you’re in the US and want to receive calls
 
 &nbsp;
 
-## **Quality**
+## Quality
 
 With features like History, Analytics, Training and the newly introduced Validation, we were able to refine our pizza ordering bot to include nuances like toppings, sauces, crust options and sizes. Our bot now had the option to BYOP (Build your own Pizza) which we considered to be a great feat considering the current state of smart bots.
 
 &nbsp;
 
-# **The Bad**
+# The Bad
 
-## **Flexibility**
+## Flexibility
 
 Building complex scenarios with Dialogflow can be challenging due to limited flexibility. If you don’t plan the flow in advance, changing stuff can be complicated. You might have to re-create entire flows if you went wrong midway. You just can’t cut-paste intents from one place to another.
 
@@ -60,7 +60,7 @@ But this shouldn’t stop you from using Dialogflow as you can’t build beautif
 
 &nbsp;
 
-## **Complex Scenarios**
+## Complex Scenarios
 
 While this might be a tough task for most of the platforms out there, but we’re not doing any comparisons here so let me put it straight: Handling complex scenarios with Dialogflow is tough.
 
@@ -70,7 +70,7 @@ But, we didn’t give up easily. After some sleepless nights and two weeks of br
 
 &nbsp;
 
-## **SDK Documentation**
+## SDK Documentation
 
 We used NodeJS for all our webhook coding and found some missing clarity in the documentation. We had to dig deep into documentations (yes, there are multiple.), Github readme’s and example codes to figure some things like extracting parameters out of contexts at certain places.
 
@@ -78,7 +78,7 @@ So, you just need to be mentally prepared to spend hours researching into topics
 
 &nbsp;
 
-# **Conclusion**
+# Conclusion
 
 While implementing complex scenarios can be a little tough with Dialogflow, but after putting in some serious efforts, planning out the scenarios in advance, and being a little careful with the interface design you will be able to build a smart bot for your requirements.
 
