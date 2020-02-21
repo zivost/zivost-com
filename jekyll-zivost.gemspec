@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-feed"
   spec.add_runtime_dependency "jekyll-admin"
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "hawkins"
 end
