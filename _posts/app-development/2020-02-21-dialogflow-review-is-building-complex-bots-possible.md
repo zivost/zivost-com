@@ -3,7 +3,7 @@ layout: post
 title: 'Dialogflow review: is building complex bots possible?'
 featured-img: 'https://cdn.zivost.com/blogs/dialogflow/dialogflow+(1).jpg'
 image:
-  path: 'https://cdn.zivost.com/blogs/app_ideas/kanban.jpg'
+  path: 'https://cdn.zivost.com/blogs/dialogflow/dialogflow+(1).jpg'
   height: 1200
   width: 628
 mathjax: true
