@@ -17,7 +17,7 @@ tags:
 author: harsh_nigam
 ---
 
-##### No leads. No business.
+#### No leads. No business.
 
 Although this goes without saying and is simple to understand, what's not simple to understand is to how to generate quality leads constantly while being cost-effective at the same time.
 
@@ -37,21 +37,21 @@ Prospects can come from around the world, might have different understandings, l
 
 Chatbots can help you in the following ways:
 
-* ##### Educate leads
+* #### Educate leads
 
   Chatbots can answer common questions automatically so you can educate your prospects without investing in human resources and updating your website. This can also auto-qualify your leads based on the type of questions the prospects are asking.
 
-* ##### Segmentation
+* #### Segmentation
 
   Websites usually display static content which is supposed to serve the mass audience. Your chatbot can segment your audience based on the data they provided like demographics, interests, age, gender, etc.
 
   For example, suggesting Indian residents a tour package valid for US residents will spoil the customer's experience. A chatbot is smart enough to handle segmentation beautifully.
 
-* ##### Chatbots are there when you can't be…
+* #### Chatbots are there when you can't be…
 
   Serve your prospects in every timezone by using chatbots or whenever you are not available to talk.
 
-* ##### Replace forms
+* #### Replace forms
 
   Filling our forms can be tedious task to do. However, chatbots offer an engaging and exiting conversational experience while collecting the same information from your prospects. This will boost your conversion rates up from using the traditional forms.
 
