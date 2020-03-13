@@ -19,11 +19,11 @@ author: harsh_nigam
 
 #### No leads. No business.
 
-Although this goes without saying and is simple to understand, what's not simple to understand is to how to generate quality leads constantly while being cost-effective at the same time.
+Although this goes without saying and is simple to understand, what's not simple to understand is how to generate quality leads constantly while being cost-effective at the same time.
 
-In this new digital era, technology has revolutionised the ease of doing business while technology being the biggest business in itself. Interesting?
+In this new digital era, technology has revolutionised the ease of doing business while technology being the biggest business itself, isn't it interesting?
 
-The good news is that technology has not just helped in easing the businesses but also helped the business generation process itself.
+The good news is that technology has not just helped in easing the process but also helped the business generation process itself.
 
 Here's a rundown on how you can leverage modern technology to give your business the boost you deserve in 2020.
 
@@ -43,9 +43,9 @@ Chatbots can help you in the following ways:
 
 * #### Segmentation
 
-  Websites usually display static content which is supposed to serve the mass audience. Your chatbot can segment your audience based on the data they provided like demographics, interests, age, gender, etc.
+  Websites usually display static content which is supposed to serve the mass audience. Your chatbot can segment your audience based on the data they provide like demographics, interests, age, gender, etc.
 
-  For example, suggesting Indian residents a tour package valid for US residents will spoil the customer's experience. A chatbot is smart enough to handle segmentation beautifully.
+  For example, suggesting Indian residents a tour package valid for US residents may spoil the customer's experience. A chatbot is smart enough to handle segmentation beautifully.
 
 * #### Chatbots are there when you can't be…
 
@@ -53,11 +53,11 @@ Chatbots can help you in the following ways:
 
 * #### Replace forms
 
-  Filling our forms can be tedious task to do. However, chatbots offer an engaging and exiting conversational experience while collecting the same information from your prospects. This will boost your conversion rates up from using the traditional forms.
+  Filling our forms can be a tedious task to do. However, chatbots offer an engaging and exciting conversational experience while collecting the same information from your prospects. This will boost your conversion rates when compared to using the traditional forms.
 
 ## 2\. AR/VR
 
-Some organisations like IKEA are using AR (Augmented Reality) technology in their Digital Marketing campaigns to help prospects visualise IKEA's products in their homes. This engages user better and helps in qualification and conversions.
+Some organisations like IKEA are using AR (Augmented Reality) technology in their Digital Marketing campaigns to help prospects visualise IKEA's products in their homes. This improves user engagement and increases conversions.
 
 For instance, one can use AR to visualise how an Audi will look in his/her garage or the same person can use VR (Virtual Reality) to visualise how the cabin of his Audi will look like without ever visiting the store physically.
 
@@ -85,7 +85,7 @@ This can be made possible using two technologies, Bluetooth Beacons and Geofenci
 
 ## 5\. Predictive Analysis
 
-The biggest mistake new business make while generating business is viewing every lead as equal. Some leads are easier to convert than other for certain factors. Leads can be scored based on these factors.
+The biggest mistake businesses make while generating business is viewing every lead as equal. Some leads are easier to convert than other for certain factors. Leads can be scored based on these factors.
 
 Predictive analytics can be incredibly valuable for lead scoring. Changing variables in your lead targeting funnel based on predictive analysis reports can lead to incredible spikes in your conversion rates.
 
@@ -129,7 +129,7 @@ Providing value will always add to growth of your business whatever the stage ma
 
 ## 10\. Automation
 
-The customer in 2020 tends to but experiences rather than products.
+The customer in 2020 tends to buy experiences rather than products.
 
 Automation is one such way to provide such experiences by incorporating modern tech and innovations. As the technology develops, it is becoming cheaper and more accessible.
 
