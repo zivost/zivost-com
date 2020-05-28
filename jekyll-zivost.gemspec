@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
-  spec.add_runtime_dependency "jekyll"
+  spec.add_runtime_dependency "jekyll", '4.1.0'
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.4"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
   spec.add_runtime_dependency "jekyll-tagging", "~> 1.1"
