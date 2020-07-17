@@ -15,7 +15,7 @@ image:
   path: ''
   height: ''
   width: ''
-mathjax: false
+mathjax: true
 tags:
 - hello
 author: ''
