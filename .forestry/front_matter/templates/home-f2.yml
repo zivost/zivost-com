@@ -1,4 +1,11 @@
 ---
 label: home-f2
 hide_body: false
-fields: []
+fields:
+- name: h1
+  type: text
+  config:
+    required: false
+  label: H1
+  description: h1
+  default: Default
