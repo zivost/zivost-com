@@ -16,5 +16,16 @@ fields:
     schema:
       format: markdown
   label: Text area
+- name: test
+  type: blocks
+  label: Test
+  template_types:
+  - home-f
+  - home-f2
+  - pp
+  config:
+    min: 
+    max: 
+  description: dasdasdsd
 pages:
 - test.md
