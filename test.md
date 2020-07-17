@@ -1,6 +1,6 @@
 ---
 h1: Hello
-heading: Heas
+heading: MY HEADING
 text_area: DSAdasdasd
 test:
 - template: home-f
@@ -11,4 +11,4 @@ test:
 published: false
 
 ---
-dasdasdasdasdadasdDSAsdDadaDadsaDdaDsdaSADASD
+# 
