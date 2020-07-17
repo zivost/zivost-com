@@ -14,7 +14,7 @@ sections:
   label: Posts
   create: all
 upload_dir: cdn/blogs/zivost/uploads
-public_path: ''
+public_path: https://cdn.zivost.com/blogs/zivost/uploads
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
