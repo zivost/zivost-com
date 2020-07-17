@@ -9,5 +9,3 @@ fields:
   label: H1
   description: h1
   default: Default
-pages:
-- test.md

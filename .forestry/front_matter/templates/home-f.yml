@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Text area
+pages:
+- test.md
