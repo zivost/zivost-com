@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/authors.yaml
   label: Authors
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
