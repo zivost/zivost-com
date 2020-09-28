@@ -15,7 +15,7 @@ tags:
 author: harsh_nigam
 
 ---
-##How to create an app like Dream11 and My11Circle?
+## How to create an app like Dream11 and My11Circle?
 
 While the Indian Premier League (IPL) 2020 fever has the world glued to their TV screens, there’s also the Mobile Phone Screen to which people are getting stuck for hours. We’re not talking about watching the game on the phone screen, we’re here talking about the craze of playing fantasy cricket apps like Dream11, My11Circle, Mobile Premier League, MyTeam11, etc. where people invest and earn **real cash**.
 
