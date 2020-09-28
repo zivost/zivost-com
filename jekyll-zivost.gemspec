@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-tagging", "~> 1.1"
   spec.add_runtime_dependency "jekyll-feed"
   spec.add_runtime_dependency "jekyll-admin"
+  spec.add_runtime_dependency "kramdown-parser-gfm"
 
   spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 13.0"
