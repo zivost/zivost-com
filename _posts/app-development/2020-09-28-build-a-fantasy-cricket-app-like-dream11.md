@@ -23,15 +23,15 @@ We’re not kidding!
 
 Fantasy cricket apps are a great earning opportunity for the users as well as the app creators.
 
-##What are Fantasy Cricket Apps?
+## What are Fantasy Cricket Apps?
 
 Fantasy Cricket refers to the fantasy sports genre where players are required to create a virtual team of 11 players and take part in ongoing contests, the players are chosen from a real upcoming cricket match and the team can’t be altered once the game starts. As the real game proceeds, the users will get points based on performance of their chosen players in the cricket match, at the end the user who has the team with highest points wins the contest.
 
-##What’s the Business Model?
+## What’s the Business Model?
 
 Upon entering the contest, the users are required to pay a small fee. Out of the total fee collected around 20% is kept by your company.
 
-####Examples:
+#### Examples:
 
 **Contest #1:**
 
