@@ -1,0 +1,29 @@
+---
+label: home-f
+hide_body: false
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text area
+- name: test
+  type: blocks
+  label: Test
+  template_types:
+  - home-f
+  - home-f2
+  - pp
+  config:
+    min: 
+    max: 
+  description: dasdasdsd

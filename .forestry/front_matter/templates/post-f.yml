@@ -1,0 +1,37 @@
+---
+label: post-f
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: featured-img
+  label: featured-img
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: file
+    name: path
+    label: path
+  - type: text
+    name: height
+    label: height
+  - type: text
+    name: width
+    label: width
+- type: boolean
+  name: mathjax
+  label: mathjax
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: author
+  label: author
+pages:
+- test.md
