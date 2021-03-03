@@ -478,8 +478,8 @@ ul.sub-menu {
 }
 
 .contact-info.bottom {
-    padding-left: 25px;
-    float:right;
+    margin: auto;
+    text-align: center;
 
 }
 
@@ -559,6 +559,9 @@ ul.sub-menu {
     top: 50px;
     left: 0;
     width: 450px;
+}
+.slide-text p{
+    padding: 0 7px;
 }
 
 .animate-in .slide-text {
@@ -2779,11 +2782,14 @@ span.stButton_gradient,
     margin-top: 30px;
 
 }
-#quote-carousel .carousel-control.left {
+/* #quote-carousel .carousel-control.left {
     left: -60px;
 }
 #quote-carousel .carousel-control.right {
     right: -60px;
+} */
+.zivost_bottom{
+    text-align: center;
 }
 #quote-carousel .carousel-indicators {
     right: 50%;
